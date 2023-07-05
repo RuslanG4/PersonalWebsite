@@ -1,0 +1,19 @@
+.infoSquare h1{
+    color: rgb(131, 230, 175);
+    padding: 5px;
+    font-size: 40px;
+    outline-style: dashed;
+}
+
+.infoSquare h2{
+    color: rgb(108, 192, 146);
+    top:0%;
+    font-size: 20px;
+    outline-style: dashed;
+}
+
+.infoSquare p{
+    color: rgb(108, 192, 146);
+    font-size: 18px;
+    outline-style: dashed;
+}

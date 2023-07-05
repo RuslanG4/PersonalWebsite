@@ -37,48 +37,69 @@
     right:10px;
   }
 
-  .square
-  {
-    position: relative;
-    left:5%;
-    top:5%;
-  }
-
-  .square p{
-    position: fixed;
-    width:30%;
-    height: 75%;
-    background-color: #474040;
-    transition: 0.5s; 
-  }
-
-  .square p:hover{
-    transform:scale(1.1);
-    background-color: #815353;
-    transition: 0.3s; 
-  }
-
   .information{
     position: fixed;
     top:5%;
     left:5%;
     width:90%;
     height: 90%;
-    background-color: #c7afaf;
+    outline-style: dashed;
 
   }
 
-  .infoSquare{
-    position: relative;
-    left:40%;
-    top:5%;
+  .square
+  {
+    position:fixed;
+    left:10%;
+    top:10%;
+    height:30%;
+    width:30%;
+    outline-style: dashed;
+    transition: 0.5s;
+  }
+
+  .square img{
+    position:relative;
+    width:100%;
+    height:100%;
+
+  }
+
+  .square :hover
+  {
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+  }
+
+  .square:hover img{
+    filter: blur(17px);
+  }
+
+  .square:hover .text {
+    opacity: 1;
+  }
+
+  .text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    color: rgb(131, 230, 175);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index:2;
     text-align: center;
   }
-  .infoSquare p{
-    position: fixed;
-    width:50%;
-    height: 75%;
-    background-color: #474040;
-    transition: 0.5s; 
 
+
+  .infoSquare{
+    position:fixed;
+    top:10%;
+    left:45%;
+    height:80%;
+    width:45%;
+    outline-style: dashed;
+    text-align: center;
   }
