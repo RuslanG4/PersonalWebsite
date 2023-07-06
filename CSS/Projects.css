@@ -1,0 +1,91 @@
+.OpenOcean
+{
+    position: relative;
+    height:400px;
+    width:80%;
+    left: 10%;
+    top:300px;
+}
+
+.OpenOcean img{
+    position:absolute;
+    border-radius: 30px;
+    width: 480px;
+    height: 270px;
+    outline-style: groove;
+    top: 10%;
+    left:5%;
+}
+
+.OpenOcean h1{
+    position: absolute;
+    left:40%;
+    top:15%;
+}
+
+.OpenOcean p{
+    position:absolute;
+    top: 25%;
+    left:40%;
+}
+
+.EndOfYear2
+{
+    position: relative;
+    height:400px;
+    width:80%;
+    left: 10%;
+    top:300px;
+}
+
+.EndOfYear2 img{
+    position:absolute;
+    border-radius: 30px;
+    width: 480px;
+    height: 270px;
+    outline-style: groove;
+    top: 10%;
+    left:5%;
+}
+
+.EndOfYear2 h1{
+    position: absolute;
+    left:40%;
+    top:15%;
+}
+
+.EndOfYear2 p{
+    position:absolute;
+    top: 25%;
+    left:40%;
+}
+
+.GGJ22
+{
+    position: relative;
+    height:400px;
+    width:80%;
+    left: 10%;
+    top:300px;
+}
+
+
+.GGJ22 img{
+    position: relative;
+    border-radius: 30px;
+    width: 480px;
+    height: 270px;
+    outline-style: groove;
+    top: 10%;
+    left:5%;
+}
+.GGJ22 h1{
+    position: absolute;
+    left:40%;
+    top:15%;
+}
+.GGJ22 p{
+    position:absolute;
+    top: 25%;
+    left:40%;
+}

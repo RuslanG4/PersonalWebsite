@@ -1,0 +1,23 @@
+.backgroundWords
+{
+    position: inherit;
+    font-family: serif;
+    color:rgb(0,0,0);
+    opacity: 20%;
+    font-size: 100px;
+    z-index:1;
+}
+
+.backgroundWords #bigAbout{
+    position:absolute;
+    left:25%;
+    top:-180px;
+}
+
+.backgroundWords #bigProjects{
+    position:absolute;
+    left:25%;
+    z-index:2;
+}
+
+

@@ -1,0 +1,22 @@
+html{
+    background-color: #f3f3f3;
+  }
+  
+.pageContent{
+    position: relative;
+    min-height: 100vh;
+  }
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family:serif;
+    letter-spacing: 1px;
+}
+.footer{
+    background: #85888b;
+    height:100px;
+
+}
+.spacer{
+    height: 300px;
+}
