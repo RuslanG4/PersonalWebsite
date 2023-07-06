@@ -89,3 +89,27 @@
     top: 25%;
     left:40%;
 }
+
+.OpenOcean img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  
+.GGJ22 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+  
+.EndOfYear2 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  .EndOfYear2 img{
+    transition: 0.5s ease;
+  }
+
+  img{
+    transition: 0.5s ease;
+  }
+
