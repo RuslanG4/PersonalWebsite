@@ -1,8 +1,12 @@
+html{
+  background-color: #f3f3f3;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 6;
     top: 0;
     right: 0;
     background-color: #111;
@@ -34,42 +38,44 @@
 
   .sideNavButton{
     position: fixed;
-    right:10px;
+    top:25px;
+    right:100px;
+    transform: scale(1.5);
+    z-index:5;
   }
 
   .information{
-    position: fixed;
+    position: absolute;
     top:5%;
     left:5%;
     width:90%;
-    height: 90%;
-    outline-style: dashed;
+    height: 400px;
+    z-index: 2;
 
   }
 
   .square
   {
-    position:fixed;
+    position:inherit;
     left:10%;
     top:10%;
-    height:30%;
-    width:30%;
-    outline-style: dashed;
+    height:300px;
+    width:400px;
     transition: 0.5s;
+    z-index:3;
   }
 
   .square img{
-    position:relative;
+    position:inherit;
     width:100%;
     height:100%;
+    z-index:3;
 
   }
 
   .square :hover
   {
-   
-    transition: 0.5s;
-    
+    transition: 0.5s; 
   }
 
   .square:hover img{
@@ -89,17 +95,72 @@
     color: rgb(1, 2, 2);
     opacity: 0;
     transition: all 0.3s ease;
-    z-index:2;
+    z-index:3;
     text-align: center;
   }
 
 
   .infoSquare{
-    position:fixed;
+    position:inherit;
     top:10%;
     left:45%;
-    height:80%;
+    height:350px;
     width:45%;
-    outline-style: dashed;
-    text-align: center;
+
+  }
+
+
+
+  .circle{
+    height:150px;
+    width:150px;
+    display: block;
+    z-index: 2;
+    border-radius: 50%;
+    background: rgb(0,37,75);
+    background: linear-gradient(90deg, rgba(0,37,75,1) 0%, rgba(57,151,255,1) 100%, rgba(0,212,255,1) 100%);
+  }
+
+  #circle1{
+    position: absolute;
+    top:25%;;
+    left:3%;
+    
+    height:225px;
+    width:225px;
+  }
+  
+  #circle2{
+    position: absolute;
+    top:55%;
+    left:75%;
+  
+    height:50px;
+    width:50px;
+  }
+  
+  #circle3{
+    position: absolute;
+    top:8%;
+    left:55%;
+
+    height:80px;
+    width:80px;
+  }
+    
+  #circle4{
+    position: absolute;
+    top:38%;
+    left:65%;
+
+    height:40px;
+    width:40px;
+  }
+    
+  #circle5{
+    position: absolute;
+    top:28%;
+    left:75%;
+    height:20px;
+    width:20px;
   }

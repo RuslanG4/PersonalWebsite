@@ -2,18 +2,49 @@
     color: rgb(0, 0, 0);
     padding: 5px;
     font-size: 40px;
-    outline-style: dashed;
+    left:4%;
+    position: absolute;
+    font-family:serif;
+    letter-spacing: 1px;
 }
 
 .infoSquare h2{
-    color: rgb(0, 0, 0);
-    top:0%;
-    font-size: 20px;
-    outline-style: dashed;
+    color: rgb(27, 27, 27);
+    font-size: 18px;
+    transform: rotate(90deg);
+    position: absolute;
+    font-family:serif;
+    letter-spacing: 7px;
+    top:52%;
+    left:0%;
+   
 }
 
 .infoSquare p{
     color: rgb(0, 0, 0);
     font-size: 18px;
-    outline-style: dashed;
+    font-family:serif;
+    letter-spacing: 1px;
+    position: absolute;
+    left:10%;
+    top:35%;
+
 }
+
+.backgroundWords
+{
+    position: inherit;
+    font-family: serif;
+    color:rgb(0,0,0);
+    opacity: 20%;
+    font-size: 100px;
+    z-index:1;
+}
+
+.backgroundWords #bigAbout{
+    position:absolute;
+    left:20%;
+    top:-160px;
+}
+
+
