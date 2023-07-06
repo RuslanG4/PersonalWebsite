@@ -38,8 +38,8 @@ html{
 
   .sideNavButton{
     position: fixed;
-    top:25px;
-    right:100px;
+    top:5%;
+    right:10%;
     transform: scale(1.5);
     z-index:5;
   }
@@ -48,8 +48,9 @@ html{
     position: absolute;
     top:5%;
     left:5%;
-    width:90%;
+    width:80%;
     height: 400px;
+    outline-style: dashed;
     z-index: 2;
 
   }
@@ -57,7 +58,7 @@ html{
   .square
   {
     position:inherit;
-    left:10%;
+    left:20%;
     top:10%;
     height:300px;
     width:400px;
