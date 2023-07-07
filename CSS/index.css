@@ -21,8 +21,13 @@ img{
   transition: 0.5s ease;
 }
 
+a{
+  text-decoration: none;
+  color: #EAF4F4;
+}
+
 .footer{
-  background-color: #1C2826;
+  background-color:#6B9080;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -35,7 +40,7 @@ img{
   margin:4% 2%;
   padding:0.6% 0%;
 
-  color:gray;
+  color:#F6FFF8;
   font-size:1.8em;
   }
 .spacer{
