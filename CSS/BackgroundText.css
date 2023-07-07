@@ -30,3 +30,16 @@
     background-color: #A4C3B2;
 }
 
+@media screen and (max-width: 450px) {
+    .backgroundWords #bigProjects{
+        top:800px;
+    }
+
+    .BGDivider{
+        top:1150px;
+        height: 1350px;
+        min-width: 100%;
+    }
+}
+
+

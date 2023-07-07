@@ -1,5 +1,5 @@
 html{
-  position: relative;
+    position: relative;
     background-color: #EAF4F4;
     min-width: 100%;
     min-height: 100%;
@@ -45,4 +45,10 @@ a{
   }
 .spacer{
     height: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  html{
+    width:100%;
+  }
 }
