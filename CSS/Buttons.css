@@ -1,5 +1,5 @@
 button{
-    background: #dad5d5;
+    background: #A4C3B2;
     border: none;
     padding: 10px 20px;
     display: inline-block;
@@ -22,14 +22,14 @@ button::before {
     bottom: 0;
     right: 100%;
     left: 0;
-    background: rgb(20, 20, 20);
+    background: #6B9080;
     opacity: 0;
     z-index: -1;
     transition: all 0.5s;
   }
   
   button:hover {
-    color: #fff;
+    color: #A4C3B2;
   }
   
   button:hover::before {
