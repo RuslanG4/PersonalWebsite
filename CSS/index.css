@@ -1,9 +1,8 @@
 html{
-    position: relative;
+  position: relative;
     background-color: #e0e0e0;
     min-width: 100%;
     min-height: 100%;
-    overflow-x: hidden;
   }
   
 body{
@@ -41,11 +40,4 @@ img{
   }
 .spacer{
     height: 400px;
-}
-
-@media (max-width:720px){
-  .footer{
-  text-align:left;
-  padding:5%;
-  }
 }
