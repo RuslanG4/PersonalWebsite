@@ -1,11 +1,11 @@
 .information{
     position: relative;
     top:50px;
-    left:5%;
+    margin-left: 10%;
     width:80%;
     height: 400px;
     z-index: 2;
-
+    outline-style: dashed;
   }
 
 .profileImage{
@@ -101,7 +101,7 @@
 
   #circle1{
     position: absolute;
-    top:25%;;
+    top:25%;
     left:3%;
     
     height:225px;

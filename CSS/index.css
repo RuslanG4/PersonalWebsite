@@ -1,22 +1,35 @@
 html{
+    position: relative;
     background-color: #f3f3f3;
+    min-width: 100%;
+    min-height: 100%;
   }
   
-.pageContent{
-    position: relative;
-    min-height: 100vh;
-  }
+body{
+  margin: 0 0 100px;
+  /* bottom = footer height */
+  padding: 25px;
+}
 p{
     color: rgb(0, 0, 0);
     font-size: 18px;
     font-family:serif;
     letter-spacing: 1px;
 }
-.footer{
-    background: #85888b;
-    height:100px;
 
+img{
+  transition: 0.5s ease;
+}
+
+.footer{
+  background-color: rgb(168, 168, 168);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
 }
 .spacer{
-    height: 300px;
+    height: 600px;
 }

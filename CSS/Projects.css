@@ -1,115 +1,119 @@
+
+.projectsBG{
+    position: relative;
+    width:1540px;
+    outline-style: dashed; 
+    margin-top: 15%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+
+.projectsBG img{
+    border-radius: 30px;
+    width: 720px;
+    height: 405px;
+    outline-style: groove;
+}
+
 .OpenOcean
 {
-    position: relative;
-    height:400px;
-    width:80%;
-    left: 10%;
-    top:300px;
-}
-
-.OpenOcean img{
-    position:absolute;
-    border-radius: 30px;
-    width: 480px;
-    height: 270px;
-    outline-style: groove;
-    top: 10%;
-    left:5%;
-}
-
-.OpenOcean h1{
-    position: absolute;
-    left:40%;
-    top:15%;
-}
-
-.OpenOcean p{
-    position:absolute;
-    top: 25%;
-    left:40%;
+    outline-style: dashed;
+    margin:25px;
 }
 
 .EndOfYear2
 {
-    position: relative;
-    height:400px;
-    width:80%;
-    left: 10%;
-    top:300px;
-}
-
-.EndOfYear2 img{
-    position:absolute;
-    border-radius: 30px;
-    width: 480px;
-    height: 270px;
-    outline-style: groove;
-    top: 10%;
-    left:5%;
-}
-
-.EndOfYear2 h1{
-    position: absolute;
-    left:40%;
-    top:15%;
-}
-
-.EndOfYear2 p{
-    position:absolute;
-    top: 25%;
-    left:40%;
+    outline-style: dashed;
+    margin:25px;
 }
 
 .GGJ22
 {
-    position: relative;
-    height:400px;
-    width:80%;
-    left: 10%;
-    top:300px;
+    outline-style: dashed;
+    margin:25px;
+    
 }
 
-
-.GGJ22 img{
+.OpenOceanImage {
     position: relative;
+}
+
+.EndOfYear2Image {
+    position: relative;
+}
+
+.GGJ22Image{
+    position: relative;
+}
+.square{
     border-radius: 30px;
-    width: 480px;
-    height: 270px;
-    outline-style: groove;
-    top: 10%;
-    left:5%;
+    width: 720px;
+    height: 405px;
+    transition: 0.5s ease;
+    background: rgb(2,0,36);
+    background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(52,164,186,1) 100%);
+    clip-path: polygon(0% 0%,45% 0%,35% 85%, 50% 100%, 0% 100%);
 }
-.GGJ22 h1{
+
+.OpenOceanImage{
+    transition: 0.5s ease;
+}
+
+.OpenOceanImage:hover .square{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.OpenOceanImage:hover img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.OpenOceanImage #OpenOceanSquare{
     position: absolute;
-    left:40%;
-    top:15%;
-}
-.GGJ22 p{
-    position:absolute;
-    top: 25%;
-    left:40%;
+    top:0;
+    left:0;
 }
 
-.OpenOcean img:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-  }
-  
-.GGJ22 img:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-  }
-
-  
-.EndOfYear2 img:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-  }
-  .EndOfYear2 img{
+.EndOfYear2Image{
     transition: 0.5s ease;
-  }
+}
 
-  img{
+.EndOfYear2:hover .square{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.EndOfYear2:hover img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.EndOfYear2 #EndOfYear2Square{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.GGJ22Image{
     transition: 0.5s ease;
-  }
+}
 
+.GGJ22Image:hover .square{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.GGJ22Image:hover img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.GGJ22Image #GGJ22Square{
+    position: absolute;
+    top:0;
+    left:0;
+}
