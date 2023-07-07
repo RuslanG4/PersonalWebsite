@@ -1,21 +1,19 @@
 
 .projectsBG{
     position: relative;
-    width:1540px;
+    width:1300px;
     height: 100%;
     margin-top: 21%;
-    margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    
+    left:15%;
 }
 
 .projectsBG img{
-    border-radius: 30px;
+    border-radius: 20px;
     width: 600px;
     height: 340px;
-    outline-style: groove;
 }
 
 .OpenOcean
@@ -45,7 +43,7 @@
     position: relative;
 }
 .square{
-    border-radius: 30px;
+    border-radius: 20px;
     width: 600px;
     height: 340px;
     transition: 0.5s ease;

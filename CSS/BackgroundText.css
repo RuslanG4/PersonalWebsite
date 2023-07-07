@@ -22,22 +22,34 @@
 .BGDivider
 {   
     position: absolute;
-    left: 0;
+    left:0;
     top: 750px;
     height: 900px;
     width: 100%;
-    overflow: hidden;
     background-color: #A4C3B2;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
+   
+    .backgroundWords #bigAbout{
+        top:0%;
+        left:10%;
+        font-size: 100px;
+        font-weight: 700;
+  
+    }
+
     .backgroundWords #bigProjects{
-        top:800px;
+        top:700px;
+        left:5%;
+        font-size: 90px;
+        font-weight: 700;
+  
     }
 
     .BGDivider{
-        top:1150px;
-        height: 1350px;
+        top:850px;
+        height: 800px;
         min-width: 100%;
     }
 }
