@@ -1,6 +1,6 @@
 html{
     position: relative;
-    background-color: #f3f3f3;
+    background-color: #e0e0e0;
     min-width: 100%;
     min-height: 100%;
   }
@@ -22,7 +22,7 @@ img{
 }
 
 .footer{
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(70, 70, 70);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -30,6 +30,21 @@ img{
   width: 100%;
   overflow: hidden;
 }
+.footer .row{
+  width:100%;
+  margin:4% 2%;
+  padding:0.6% 0%;
+
+  color:gray;
+  font-size:1.8em;
+  }
 .spacer{
     height: 600px;
+}
+
+@media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
 }

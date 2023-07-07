@@ -2,8 +2,8 @@
 .projectsBG{
     position: relative;
     width:1540px;
-    outline-style: dashed; 
-    margin-top: 15%;
+    height: 100%;
+    margin-top: 18%;
     margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -13,28 +13,24 @@
 
 .projectsBG img{
     border-radius: 30px;
-    width: 720px;
-    height: 405px;
+    width: 600px;
+    height: 340px;
     outline-style: groove;
 }
 
 .OpenOcean
 {
-    outline-style: dashed;
     margin:25px;
 }
 
 .EndOfYear2
 {
-    outline-style: dashed;
     margin:25px;
 }
 
 .GGJ22
 {
-    outline-style: dashed;
-    margin:25px;
-    
+    margin:25px; 
 }
 
 .OpenOceanImage {
@@ -50,8 +46,8 @@
 }
 .square{
     border-radius: 30px;
-    width: 720px;
-    height: 405px;
+    width: 600px;
+    height: 340px;
     transition: 0.5s ease;
     background: rgb(2,0,36);
     background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(52,164,186,1) 100%);
