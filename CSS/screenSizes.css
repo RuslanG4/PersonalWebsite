@@ -211,3 +211,61 @@ button{
   width:90px;
 }  
 }
+
+@media screen and (max-width: 1890px) {
+   
+  .infoSquare p{
+     left:75px;
+     width:100%;
+}
+
+
+  .projectsBG{
+    margin-top: 300px;
+    margin-left: 7%;
+    width:1365px;
+    height:100%;
+   }
+
+   .projectsBG img{
+    width:375px;
+    height:245px;
+}
+.OpenOcean
+{
+    position: relative;
+    margin:40px;
+    top:0%;
+}
+
+.EndOfYear2
+{
+    position: relative;
+    top:0%;
+    margin:40px;
+}
+
+.GGJ22
+{
+    position: relative;
+    top:0%;
+    margin:40px; 
+}
+.square{
+    width:375px;
+    height:245px;
+}
+#mv{
+  margin-left:75px;
+}
+
+#lv{
+  margin-left:210px;
+}
+#gv{
+  margin-left:345px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+}

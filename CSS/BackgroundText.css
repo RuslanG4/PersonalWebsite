@@ -61,4 +61,11 @@
     }
 }
 
+@media screen and (max-width: 1890px) {
+    .backgroundWords #bigProjects{
+        top:460px;
+  
+    }
+}
+
 
