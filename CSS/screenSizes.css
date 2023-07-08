@@ -43,20 +43,21 @@
        }
 
        button{
-        width: 105px;
+        width: 90px;
+        font-size: 8px;
        }
        #mv{
         top: 200px;
-        margin-left:5%;
+        margin-left:8%;
       }
     
       #lv{
         top: 200px;
-        margin-left:140px;
+        margin-left:130px;
       }
       #gv{
         top: 200px;
-        margin-left:260px;
+        margin-left:230px;
       }
 
       .sideNavButton{
@@ -206,7 +207,7 @@
           height:170px;
       }
 button{
-  font-size: 10px;
-  width:95px;
+  font-size: 8px;
+  width:90px;
 }  
 }
