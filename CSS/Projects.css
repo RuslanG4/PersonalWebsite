@@ -1,33 +1,41 @@
 
 .projectsBG{
     position: relative;
-    width:1300px;
-    height: 100%;
-    margin-top: 21%;
+    width:80%;
+    height: 450px;
+    margin-top: 15%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    left:15%;
+    outline-style: dashed;
+    margin-left: 10%;
+    background-color: #252525;
 }
 
 .projectsBG img{
     border-radius: 20px;
-    width: 600px;
-    height: 340px;
+    width:450px;
+    height:265px;
 }
 
 .OpenOcean
 {
+    position: relative;
+    top:20%;
     margin:25px;
 }
 
 .EndOfYear2
 {
+    position: relative;
+    top:20%;
     margin:25px;
 }
 
 .GGJ22
 {
+    position: relative;
+    top:20%;
     margin:25px; 
 }
 
@@ -44,8 +52,8 @@
 }
 .square{
     border-radius: 20px;
-    width: 600px;
-    height: 340px;
+    width:450px;
+    height:265px;
     transition: 0.5s ease;
     background: rgb(2,0,36);
     background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(52,164,186,1) 100%);

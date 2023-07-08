@@ -3,78 +3,61 @@
     position: inherit;
     font-family: serif;
     color:#6B9080;
-    opacity: 40%;
+    opacity: 60%;
     font-size: 100px;
-    z-index:1;
 }
 
 .backgroundWords #bigAbout{
+    font: 80px;
+    font-weight: 700;
     position:absolute;
-    left:25%;
     top:-160px;
+    margin-left: 20%;
+    z-index:4;
 }
 
 .backgroundWords #bigProjects{
+    font: 80px;
+    font-weight: 700;
     position:absolute;
-    left:25%;
-}
-
-.BGDivider
-{   
-    position: absolute;
-    left:0;
-    top: 750px;
-    height: 900px;
-    width: 100%;
-    background-color: #A4C3B2;
+    top:525px;
+    margin-left: 20%;
+    z-index:4;
 }
 
 @media screen and (max-width: 400px) {
    
     .backgroundWords #bigAbout{
-        top:0%;
-        left:10%;
+        top:-25px;
+        left: -50px;
         font-size: 100px;
         font-weight: 700;
   
     }
 
     .backgroundWords #bigProjects{
-        top:700px;
-        left:5%;
         font-size: 90px;
         font-weight: 700;
-  
+        top:800px;
+        left: -50px;
     }
 
-    .BGDivider{
-        top:850px;
-        height: 800px;
-        min-width: 100%;
-    }
 }
 
 @media screen and (max-width: 360px) {
     .backgroundWords #bigAbout{
-        top:0%;
-        left:10%;
+
         font-size: 90px;
         font-weight: 700;
+        top:0px;
   
     }
 
     .backgroundWords #bigProjects{
-        top:700px;
-        left:5%;
+        top:760px;
         font-size: 80px;
         font-weight: 700;
   
-    }
-
-    .BGDivider{
-        top:850px;
-        height: 800px;
-        min-width: 100%;
     }
 }
 
