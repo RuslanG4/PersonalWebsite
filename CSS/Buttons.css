@@ -38,19 +38,8 @@ button::before {
     opacity: 1;
   }
 
-  #mv{
+  .infoButtons{
     position: absolute;
-    margin-top: 20%;
-    margin-left: 15%;
-  }
-
-  #lv{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 35%;
-  }
-  #gv{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 55%;
+    top:80%;
+    left:15%;
   }

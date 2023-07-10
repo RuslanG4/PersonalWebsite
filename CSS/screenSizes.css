@@ -46,18 +46,8 @@
         width: 90px;
         font-size: 8px;
        }
-       #mv{
-        top: 200px;
-        margin-left:8%;
-      }
-    
-      #lv{
-        top: 200px;
-        margin-left:130px;
-      }
-      #gv{
-        top: 200px;
-        margin-left:230px;
+       .infoButtons{
+        left:35px;
       }
 
       .sideNavButton{
@@ -136,18 +126,8 @@
          button{
           width: 105px;
          }
-         #mv{
-          top: 200px;
-          margin-left:5%;
-        }
-      
-        #lv{
-          top: 200px;
-          margin-left:125px;
-        }
-        #gv{
-          top: 200px;
-          margin-left:230px;
+         .infoButtons{
+          left:25px;
         }
   
         .sideNavButton{
@@ -196,16 +176,6 @@ button{
   width:1000px;
   left:20%;
  }
-#mv{
-  margin-left:75px;
-}
-
-#lv{
-  margin-left:210px;
-}
-#gv{
-  margin-left:345px;
-}
 }
 
 
@@ -229,16 +199,6 @@ button{
         width:100%;
 
    }
-   #mv{
-    margin-left:100px;
-  }
-  
-  #lv{
-    margin-left:235px;
-  }
-  #gv{
-    margin-left:370px;
-  }
   .projectsBG{
     top:300px;
     height:750px;
@@ -275,14 +235,4 @@ button{
          width:90%;
  
     }
-    #mv{
-     margin-left:125px;
-   }
-   
-   #lv{
-     margin-left:260px;
-   }
-   #gv{
-     margin-left:395px;
-   } 
 }
