@@ -69,3 +69,11 @@
 }
 
 
+@media screen and (min-device-width: 1280px) and(max-width: 1600px) {
+    .backgroundWords #bigProjects{
+        top:460px;
+  
+    }
+}
+
+
