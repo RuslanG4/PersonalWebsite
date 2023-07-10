@@ -49,15 +49,22 @@
 
         font-size: 90px;
         font-weight: 700;
-        top:0px;
+        left:0px;
+        margin-left: 0px;
+        top:-20px;
   
     }
 
     .backgroundWords #bigProjects{
-        top:760px;
+        top:780px;
         font-size: 80px;
         font-weight: 700;
+        left:0px;
+        margin-left: 0px;
   
+    }
+    .spacer{
+        height:400px;
     }
 }
 

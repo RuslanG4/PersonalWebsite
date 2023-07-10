@@ -66,38 +66,22 @@
         right:25px;
       }
 
-       .projectsBG{
-        margin-top: 210px;
-        margin-left: 0;
-        width:100%;
-        height:100%;
+      .projectsBG{
+        top:180px;
+        height:750px;
+        width:auto;
+      }
+       .projectsFlex{
+        width:350px;
+        left:15px;
+        top:50px;
        }
 
        .projectsBG img{
         width:300px;
         height:170px;
     }
-    .OpenOcean
-    {
-        position: relative;
-        margin:40px;
-    }
-    
-    .EndOfYear2
-    {
-        position: relative;
-        top:0%;
-        margin-left:40px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
-    .GGJ22
-    {
-        position: relative;
-        top:0%;
-        margin:40px; 
-    }
+
     .square{
         width:300px;
         height:170px;
@@ -172,35 +156,20 @@
           right:25px;
         }
   
-         .projectsBG{
-          margin-top: 210px;
-          margin-left: 0;
-          width:10px;
-          height:100%;
+        .projectsBG{
+          top:180px;
+          height:750px;
+          width:auto;
+        }
+         .projectsFlex{
+          width:350px;
+          left:0;
+          top:50px;
          }
   
          .projectsBG img{
           width:300px;
           height:170px;
-      }
-      .OpenOcean
-      {
-          position: relative;
-          margin-left:20px;
-      }
-      
-      .EndOfYear2
-      {
-          position: relative;
-          top:0%;
-          margin-left:20px;
-      }
-      
-      .GGJ22
-      {
-          position: relative;
-          top:0%;
-          margin-left:20px;
       }
       .square{
           width:300px;
@@ -218,43 +187,15 @@ button{
      left:75px;
      width:100%;
 }
-
-
-  .projectsBG{
-    margin-top: 300px;
-    margin-left: 7%;
-    width:1365px;
-    height:100%;
-   }
-
-   .projectsBG img{
-    width:375px;
-    height:245px;
+.projectsBG{
+  top:300px;
+  height:750px;
+  width:auto;
 }
-.OpenOcean
-{
-    position: relative;
-    margin:40px;
-    top:0%;
-}
-
-.EndOfYear2
-{
-    position: relative;
-    top:0%;
-    margin:40px;
-}
-
-.GGJ22
-{
-    position: relative;
-    top:0%;
-    margin:40px; 
-}
-.square{
-    width:375px;
-    height:245px;
-}
+ .projectsFlex{
+  width:1000px;
+  left:20%;
+ }
 #mv{
   margin-left:75px;
 }
@@ -268,7 +209,7 @@ button{
 }
 
 
-@media screen and (min-device-width: 1280px) and (max-width: 1600px) {
+@media screen and (min-device-width: 1280px) and (max-width: 1300px) {
 
   .profileImage{
     left:0;
@@ -299,38 +240,49 @@ button{
     margin-left:370px;
   }
   .projectsBG{
-    margin-top:350px;
-    height:100%;
+    top:300px;
+    height:750px;
+    width:auto;
+  }
+   .projectsFlex{
+    width:1000px;
    }
 
-   .projectsBG img{
-    width:375px;
-    height:245px;
+
 }
 
-.square{
-  width:375px;
-  height:245px;
-}
-
-   .OpenOcean
+@media screen and (min-device-width: 1300px) and (max-width: 1400px)
 {
-    margin-left:100px;
-    margin-top:50px;
-    top:0%;
+  .projectsBG{
+    top:300px;
+    height:750px;
+    width:auto;
+  }
+   .projectsFlex{
+    width:1000px;
+   }
+   .infoSquare h1{
+    left:100px;
+    }
+    
+    .infoSquare h2{
+        left:50px;
+    }
+    
+    .infoSquare p{
+         left:120px;
+         top:110px;
+         width:90%;
+ 
+    }
+    #mv{
+     margin-left:125px;
+   }
+   
+   #lv{
+     margin-left:260px;
+   }
+   #gv{
+     margin-left:395px;
+   } 
 }
-
-.EndOfYear2
-{
-    top:0%;
-    margin-top:50px;
-}
-
-.GGJ22
-{
-    top:0%;
-    margin-left:100px;
-    margin-top:50px;
-}
-}
-
