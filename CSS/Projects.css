@@ -3,9 +3,19 @@
     position: absolute;
     width:1100px;
     height: 800px;
-    top:108px;
+    top:58px;
     left:40%;
-    background-color: #252525;
+    background-color: #709775;
+}
+
+.projectsBG h1{
+    position: absolute;
+    color: #F6FFF8;
+    top:-30px;
+    left:50px;
+    font-size: 70px;
+    font-family:serif;
+    letter-spacing: 1px;
 }
 
 .projectsFlex{
@@ -15,7 +25,8 @@
     top: 100px;
     left:5%;
     width:1000px;
-    background-color:  #1C1C1C;
+    background-color:  #8FB996;
+    
 }
 
 .projectsBG img{
@@ -44,8 +55,8 @@
     width:450px;
     height:250px;
     transition: 0.5s ease;
-    background: rgb(21,35,28);
-    background: linear-gradient(90deg, rgba(21,35,28,1) 0%, rgba(107,144,128,1) 65%, rgba(164,195,178,1) 100%);
+    background: rgb(17,29,19);
+background: linear-gradient(90deg, rgba(17,29,19,1) 0%, rgba(112,151,117,1) 46%, rgba(203,231,205,1) 82%);
     clip-path: polygon(0% 0%,25% 0%,35% 85%, 50% 100%, 0% 100%);
 }
 

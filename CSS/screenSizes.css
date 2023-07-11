@@ -161,15 +161,14 @@ button{
 }  
 }
 
-@media screen and (min-device-width: 1600px) and (max-width: 1890px) {
+@media screen and (min-device-width: 1600px) and (max-width: 1850px) {
    
   .projectsBG{
     position: absolute;
     width:800px;
     height: 700px;
-    top:108px;
+    top:58px;
     left:45%;
-    background-color: #252525;
 }
 
 .projectsFlex{
@@ -187,14 +186,14 @@ button{
 }
 
 button{
-  font-size: 20px;
+  font-size: 35px;
   width: 200px;
 }
 .infoButtons{
   position: absolute;
-  top:70%;
+  top:65%;
   left:48%;
-  width:800px;
+  width:675px;
 }
 }
 
@@ -225,13 +224,13 @@ button{
   .projectsBG{
     position: absolute;
     width:660px;
-    height: 500px;
-    top:108px;
+    height: 600px;
+    top:58px;
     left:45%;
 }
 
 .projectsFlex{
-  top:50px;
+  top:100px;
   width:590px;
 }
 
@@ -246,14 +245,14 @@ button{
 }
 
 button{
-  font-size: 20px;
-  width: 160px;
+  font-size: 35px;
+  width: 200px;
 }
 .infoButtons{
   position: absolute;
-  top:60%;
-  left:48%;
-  width:580px;
+  top:65%;
+  left:45%;
+  width:675px;
 }
 
 }
@@ -285,7 +284,7 @@ button{
     position: absolute;
     width:700px;
     height: 600px;
-    top:108px;
+    top:58px;
     left:45%;
 }
 
@@ -304,13 +303,13 @@ button{
 }
 
 button{
-  font-size: 20px;
-  width: 180px;
+  font-size: 35px;
+  width: 200px;
 }
 .infoButtons{
   position: absolute;
-  top:70%;
-  left:48%;
-  width:700px;
+  top:65%;
+  left:45%;
+  width:675px;
 }
 }

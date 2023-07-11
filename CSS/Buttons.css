@@ -1,5 +1,5 @@
 button{
-    background: #A4C3B2;
+    background: #588157;
     border: none;
     padding: 10px 20px;
     display: inline-block;
@@ -23,7 +23,7 @@ button::before {
     bottom: 0;
     right: 100%;
     left: 0;
-    background: #6B9080;
+    background: #415D43;
     opacity: 0;
     z-index: -1;
     transition: all 0.5s;
@@ -41,7 +41,7 @@ button::before {
 
   .infoButtons{
     position: absolute;
-    top:75%;
+    top:70%;
     left:43%;
     width:1000px;
   }

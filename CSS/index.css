@@ -1,6 +1,6 @@
 html{
     position: relative;
-    background-color: #1d1c1c;
+    background-color: #CBE7CD;
     min-width: 100%;
     min-height: 100%;
   }
@@ -22,7 +22,7 @@ a{
 }
 
 .footer{
-  background-color:#6B9080;
+  background-color:#111D13;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -34,7 +34,7 @@ a{
   width:100%;
   margin:4% 2%;
   padding:0.6% 0%;
-  color:#F6FFF8;
+  color:#709775;
   font-size:1.8em;
   }
 .spacer{

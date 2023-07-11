@@ -1,10 +1,10 @@
 .information{
     position: relative;
     left:50px;
-    top:100px;
+    top:50px;
     width:568px;
     height: 980px;
-    background-color: #252525;
+    background-color: #709775;
   }
 
 .profileImage{
@@ -30,7 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 27px;
-    color: #EAF4F4;
+    color: #F6FFF8;
     opacity: 0;
     transition: all 0.3s ease;
     text-align: center;
@@ -46,7 +46,7 @@
   .infoSquare h1{
     position: relative;
     margin-top: 10%;
-    color: #6B9080;
+    color: #F6FFF8;
     padding-left: 30px;
     font-size: 70px;
     font-family:serif;
@@ -58,7 +58,7 @@
        font-size: 25px;
        left:35px;
        margin-top: -2%;
-       color:#6B9080;
+       color:#F6FFF8;
    }
 
   @media screen and (max-width: 400px) {
