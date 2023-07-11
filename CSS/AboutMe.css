@@ -1,15 +1,19 @@
 .information{
-    position: relative;
-    left:50px;
-    top:50px;
-    width:568px;
-    height: 980px;
-    background-color: #709775;
+  position: relative;
+    width:100%;
+    height:40%;
+  }
+
+  .codeImage{
+    position: absolute;
+    width:100%;
+    height:100%;
+    filter: brightness(25%);
   }
 
 .profileImage{
     position: absolute;
-    top:-100px;
+    left:10%;
   }
 
   .profileImage img{
@@ -38,14 +42,13 @@
 
   .infoSquare{
     position:absolute;
-    top:550px;
+    top:200px;
+    left:45%;
     height:350px;
-    width:100%;
   }
 
   .infoSquare h1{
     position: relative;
-    margin-top: 10%;
     color: #F6FFF8;
     padding-left: 30px;
     font-size: 70px;
@@ -57,10 +60,6 @@
        position: absolute;
        font-size: 25px;
        left:35px;
-       margin-top: -2%;
+
        color:#F6FFF8;
    }
-
-  @media screen and (max-width: 400px) {
-   
-  }

@@ -162,97 +162,29 @@ button{
 }
 
 @media screen and (min-device-width: 1600px) and (max-width: 1850px) {
-   
-  .projectsBG{
-    position: absolute;
-    width:800px;
-    height: 700px;
-    top:58px;
-    left:45%;
+  .projectsBG img{
+    width:725px;
+    height:350px;
 }
-
-.projectsFlex{
-    width:700px;
-}
-
-.projectsBG img{
-    width:300px;
-    height:200px;
-}
-
 .square{
-  width:300px;
-  height:200px;
+  width:725px;
+  height:350px;
 }
-
-button{
-  font-size: 35px;
-  width: 200px;
-}
-.infoButtons{
-  position: absolute;
-  top:65%;
-  left:48%;
-  width:675px;
-}
+ 
 }
 
 
 @media screen and (min-device-width: 1280px) and (max-width: 1300px) {
-  .information{
-    width:418px;
-    height: 830px;
-    left:50px;
+  .profileImage{
+    left:5%;
   }
-  .profileImage img{
-    height:1002px;
-    width:418px;
-  }
-
-  .infoSquare h1{
-    margin-top: 0;
-    padding-left: 15px;
-    font-size: 30px;
-   }
-   
-   .infoSquare p{
-       font-size: 20px;
-       left:15px;
-
-   }
-
-  .projectsBG{
-    position: absolute;
-    width:660px;
-    height: 600px;
-    top:58px;
-    left:45%;
+  .projectsBG img{
+    width:500px;
+    height:300px;
 }
-
-.projectsFlex{
-  top:100px;
-  width:590px;
-}
-
-.projectsBG img{
-    width:245px;
-    height:150px;
-}
-
 .square{
-  width:245px;
-  height:150px;
-}
-
-button{
-  font-size: 35px;
-  width: 200px;
-}
-.infoButtons{
-  position: absolute;
-  top:65%;
-  left:45%;
-  width:675px;
+  width:500px;
+  height:300px;
 }
 
 }
@@ -260,56 +192,12 @@ button{
 
 
 @media screen and (min-device-width: 1300px) and (max-width: 1600px) {
-  .information{
-    width:468px;
-    height: 880px;
-    left:50px;
-  }
-  .profileImage img{
-    height:1052px;
-    width:468px;
-  }
-
-  .infoSquare h1{
-    font-size: 50px;
-   }
-   
-   .infoSquare p{
-       font-size: 25px;
-       left:15px;
-
-   }
-
-  .projectsBG{
-    position: absolute;
-    width:700px;
-    height: 600px;
-    top:58px;
-    left:45%;
+  .projectsBG img{
+    width:625px;
+    height:350px;
 }
-
-.projectsFlex{
-    width:600px;
-}
-
-.projectsBG img{
-    width:250px;
-    height:150px;
-}
-
 .square{
-  width:250px;
-  height:150px;
-}
-
-button{
-  font-size: 35px;
-  width: 200px;
-}
-.infoButtons{
-  position: absolute;
-  top:65%;
-  left:45%;
-  width:675px;
+  width:625px;
+  height:350px;
 }
 }

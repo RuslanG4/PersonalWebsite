@@ -1,0 +1,8 @@
+button{
+    background-color: transparent;
+    font-size: 25px;
+    color: aliceblue;
+    border: none;
+    font-family:serif;
+    cursor: pointer;
+}
