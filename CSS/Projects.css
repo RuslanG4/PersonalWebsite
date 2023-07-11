@@ -1,9 +1,10 @@
 
 .projectsBG{
-    position: relative;
-    width:100%;
-    height: 520px;
-    top:300px;
+    position: absolute;
+    width:1100px;
+    height: 800px;
+    top:108px;
+    left:40%;
     background-color: #252525;
 }
 
@@ -12,52 +13,36 @@
     display: flex;
     flex-wrap: wrap;
     top: 100px;
-    left:10%;
+    left:5%;
+    width:1000px;
     background-color:  #1C1C1C;
 }
 
 .projectsBG img{
     border-radius: 20px;
     width:450px;
-    height:265px;
+    height:250px;
 }
 
-.OpenOcean
-{
-    position: relative;
-    top:20%;
-    margin:25px;
-}
-
-.EndOfYear2
-{
-    position: relative;
-    top:20%;
-    margin:25px;
-}
-
-.GGJ22
-{
-    position: relative;
-    top:20%;
-    margin:25px; 
-}
 
 .OpenOceanImage {
     position: relative;
+    margin:25px;
 }
 
 .EndOfYear2Image {
     position: relative;
+    margin:25px;
 }
 
 .GGJ22Image{
     position: relative;
+    margin:25px;
 }
 .square{
     border-radius: 20px;
     width:450px;
-    height:265px;
+    height:250px;
     transition: 0.5s ease;
     background: rgb(2,0,36);
     background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(52,164,186,1) 100%);

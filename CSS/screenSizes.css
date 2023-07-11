@@ -163,116 +163,152 @@ button{
 
 @media screen and (min-device-width: 1600px) and (max-width: 1890px) {
    
-  .infoSquare p{
-     left:75px;
-     width:100%;
+  .projectsBG{
+    position: absolute;
+    width:800px;
+    height: 700px;
+    top:105px;
+    left:45%;
+    background-color: #252525;
 }
-.projectsBG{
-  top:300px;
-  height:850px;
-  width:auto;
+
+.projectsFlex{
+    width:700px;
 }
- .projectsFlex{
-  width:1000px;
-  left:20%;
- }
+
+.projectsBG img{
+    width:300px;
+    height:200px;
+}
+
+.square{
+  width:300px;
+  height:200px;
+}
+
+button{
+  font-size: 20px;
+  width: 200px;
+}
+.infoButtons{
+  position: absolute;
+  top:70%;
+  left:48%;
+  width:800px;
+}
 }
 
 
 @media screen and (min-device-width: 1280px) and (max-width: 1300px) {
-
-  .profileImage{
-    left:0;
+  .information{
+    width:418px;
+    height: 830px;
   }
-  
+  .profileImage img{
+    height:1002px;
+    width:418px;
+  }
+
   .infoSquare h1{
-   left:50px;
-   }
-   
-   .infoSquare h2{
-       left:25px;
+    margin-top: 0;
+    padding-left: 15px;
+    font-size: 30px;
    }
    
    .infoSquare p{
-        left:90px;
-        top:110px;
-        width:100%;
+       font-size: 20px;
+       left:15px;
 
    }
+
   .projectsBG{
-    top:300px;
-    height:850px;
-    width:auto;
-  }
-   .projectsFlex{
-    width:1000px;
-   }
+    position: absolute;
+    width:660px;
+    height: 500px;
+    top:108px;
+    left:45%;
+}
 
+.projectsFlex{
+  top:50px;
+  width:590px;
+}
 
+.projectsBG img{
+    width:245px;
+    height:150px;
+}
+
+.square{
+  width:245px;
+  height:150px;
+}
+
+button{
+  font-size: 20px;
+  width: 160px;
+}
+.infoButtons{
+  position: absolute;
+  top:60%;
+  left:48%;
+  width:580px;
+}
 
 }
 
-@media screen and (min-device-width: 1300px) and (max-width: 1400px)
-{
-  .profileImage{
-    left:0%;
-  }
-  .projectsBG{
-    top:300px;
-    height:850px;
-    width:auto;
-  }
-   .projectsFlex{
-    width:1000px;
-    left:12%;
-   }
-   .infoSquare h1{
-    left:75px;
-    }
-    
-    .infoSquare h2{
-        left:50px;
-    }
-  .infoSquare p{
-     left:110px;
-     top:125px;
-     width:100%;
-}
-    .infoButtons{
-      left:150px;
-     }
-     button{
-      font-size: 8px;
-      width:90px;
-    }  
-}
 
-@media screen and (min-device-width: 1400px) and (max-width: 1600px) {
-  .profileImage{
-    left:5%;
+
+@media screen and (min-device-width: 1300px) and (max-width: 1600px) {
+  .information{
+    width:468px;
+    height: 880px;
   }
+  .profileImage img{
+    height:1052px;
+    width:468px;
+  }
+
   .infoSquare h1{
-    left:50px;
-    }
-    
-    .infoSquare h2{
-        left:25px;
-    }
-  .infoSquare p{
-     left:85px;
-     top:125px;
-     width:100%;
+    font-size: 50px;
+   }
+   
+   .infoSquare p{
+       font-size: 25px;
+       left:15px;
+
+   }
+
+  .projectsBG{
+    position: absolute;
+    width:700px;
+    height: 600px;
+    top:100px;
+    left:45%;
 }
-.projectsBG{
-  top:300px;
-  height:850px;
-  width:auto;
+
+.projectsFlex{
+    width:600px;
 }
- .projectsFlex{
-  width:1000px;
-  left:15%;
- }
- .infoButtons{
-  left:100px;
- }
+
+.projectsBG img{
+    width:250px;
+    height:150px;
+}
+
+.square{
+  width:250px;
+  height:150px;
+}
+
+button{
+  font-size: 20px;
+  width: 180px;
+}
+.infoButtons{
+  position: absolute;
+  top:70%;
+  left:48%;
+  width:700px;
+}
 }

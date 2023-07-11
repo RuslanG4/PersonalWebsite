@@ -3,12 +3,13 @@ button{
     border: none;
     padding: 10px 20px;
     display: inline-block;
-    font-size: 10px;
+    font-size: 40px;
     font-weight: 600;
-    width: 120px;
+    width: 300px;
     text-transform: uppercase;
     cursor: pointer;
     transform: skew(-21deg);
+    margin:10px;
 }
 
 #contactButton{
@@ -40,6 +41,7 @@ button::before {
 
   .infoButtons{
     position: absolute;
-    top:85%;
-    left:15%;
+    top:75%;
+    left:43%;
+    width:1000px;
   }
