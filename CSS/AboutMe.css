@@ -16,7 +16,7 @@
     position:absolute;
     height:1152px;
     width:568px;
-    clip-path: polygon(50% 10%,95% 35%,50% 60%, 5% 35%);
+    clip-path: polygon(50% 15%,95% 35%,50% 55%, 5% 35%);
     z-index:2;
   }
 
