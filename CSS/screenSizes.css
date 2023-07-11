@@ -167,7 +167,7 @@ button{
     position: absolute;
     width:800px;
     height: 700px;
-    top:105px;
+    top:108px;
     left:45%;
     background-color: #252525;
 }
@@ -203,6 +203,7 @@ button{
   .information{
     width:418px;
     height: 830px;
+    left:50px;
   }
   .profileImage img{
     height:1002px;
@@ -263,6 +264,7 @@ button{
   .information{
     width:468px;
     height: 880px;
+    left:50px;
   }
   .profileImage img{
     height:1052px;
@@ -283,7 +285,7 @@ button{
     position: absolute;
     width:700px;
     height: 600px;
-    top:100px;
+    top:108px;
     left:45%;
 }
 

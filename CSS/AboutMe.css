@@ -1,6 +1,6 @@
 .information{
     position: relative;
-    left:100px;
+    left:50px;
     top:100px;
     width:568px;
     height: 980px;
@@ -16,7 +16,7 @@
     position:absolute;
     height:1152px;
     width:568px;
-    clip-path: polygon(50% 15%,95% 35%,50% 55%, 5% 35%);
+    clip-path: polygon(50% 15%,90% 35%,50% 55%, 10% 35%);
     z-index:2;
   }
 
