@@ -32,3 +32,9 @@
   font:13px "FF MARK W05",Arial,sans-serif;
   letter-spacing: 1px;
 }
+
+@media screen and (min-device-width: 350px) and (max-width: 400px) {
+  .navbarText{
+    font:13px "FF MARK W05",Arial,sans-serif;
+  }
+}

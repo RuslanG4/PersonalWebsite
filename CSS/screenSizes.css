@@ -1,164 +1,110 @@
 @media screen and (min-device-width: 360px) and (max-width: 400px) {
-.information{
-  width:100%;
-  height:700px;
-  margin-left:0;
+
+  .profileImage{
+    left:0%;
+    top:100px;
+    height:350px;
+    width:100%;
+  }
+  .infoSquare{
+    top:375px;
+    left:0;
+    height:350px;
+  }
+
+  .infoSquare h1{
+    padding-left: 30px;
+    font-size: 40px;
+    letter-spacing: 1px;
+   }
+   
+   .infoSquare p{
+       font-size: 25px;
+       left:35px;
+
+   }
+
+   .projectsBG img{
+    width:300px;
+    height:150px;
+}
+  .square{
+    width:300px;
+    height:150px;
+  }
+  .projectsBG{
+    height:800px;
+
+}
+  .OpenOceanImage {
+    left:50px;
+    top:150px;
 }
 
-    .profileImage{
-      height:265px;
-      width:390px;
-      left:0;
-      top:50px;
-      overflow-x: hidden;
-    }
+.EndOfYear2Image {
+    left:50px;
+    top:350px;
+}
 
-    .infoSquare{
-        height:350px;
-        width:100%;
-        left:0%;
-        top:350px;
-
-      }
-    
-      .infoSquare h1{
-        margin-top: 0%;
-        font-size: 32px;
-       }
-       
-       .infoSquare h2{
-           font-size: 18px;
-           position: absolute;
-           top: 50px;
-           transform:rotate(0deg);
-           left:25px;
-       }
-       
-       .infoSquare p{
-           position: absolute;
-            top:100px;
-            left:5%;
-            width:90%;
-           color:#6B9080;
-       }
-
-       button{
-        width: 90px;
-        font-size: 8px;
-       }
-       .infoButtons{
-        left:35px;
-      }
-
-      .sideNavButton{
-        transform: scale(1.5);
-        width:30px;
-        right:25px;
-      }
-
-      .projectsBG{
-        top:180px;
-        height:750px;
-        width:auto;
-      }
-       .projectsFlex{
-        width:350px;
-        left:15px;
-        top:50px;
-       }
-
-       .projectsBG img{
-        width:300px;
-        height:170px;
-    }
-
-    .square{
-        width:300px;
-        height:170px;
-    }
-
+.GGJ22Image{
+  left:50px;
+  top:550px;
+}
 }
 
 @media screen and (min-device-width: 350px) and (max-width: 360px) {
-  .information{
+
+  .profileImage{
+    left:0%;
+    top:100px;
+    height:350px;
     width:100%;
-    height:710px;
-    margin-left:0;
   }
-  
-      .profileImage{
-        height:235px;
-        width:360px;
-        left:0;
-        top:50px;
-        overflow-x: hidden;
-      }
-  
-      .infoSquare{
-          height:350px;
-          width:100%;
-          left:0%;
-          top:350px;
-  
-        }
-      
-        .infoSquare h1{
-          margin-top: 0%;
-          font-size: 32px;
-         }
-         
-         .infoSquare h2{
-             font-size: 18px;
-             position: absolute;
-             top: 50px;
-             transform:rotate(0deg);
-             left:25px;
-         }
-         
-         .infoSquare p{
-             position: absolute;
-              top:100px;
-              left:5%;
-              width:90%;
-             color:#6B9080;
-         }
-  
-         button{
-          width: 105px;
-         }
-         .infoButtons{
-          left:25px;
-        }
-  
-        .sideNavButton{
-          transform: scale(1.5);
-          width:30px;
-          right:25px;
-        }
-  
-        .projectsBG{
-          top:180px;
-          height:750px;
-          width:auto;
-        }
-         .projectsFlex{
-          width:350px;
-          left:0;
-          top:50px;
-         }
-  
-         .projectsBG img{
-          width:300px;
-          height:170px;
-      }
-      .square{
-          width:300px;
-          height:170px;
-      }
-button{
-  font-size: 8px;
-  width:90px;
-}  
+  .infoSquare{
+    top:350px;
+    left:0;
+    height:350px;
+  }
+
+  .infoSquare h1{
+    padding-left: 30px;
+    font-size: 40px;
+    letter-spacing: 1px;
+   }
+   
+   .infoSquare p{
+       font-size: 25px;
+       left:35px;
+
+   }
+
+   .projectsBG img{
+    width:300px;
+    height:150px;
+}
+  .square{
+    width:300px;
+    height:150px;
+  }
+  .projectsBG{
+    height:800px;
+
+}
+  .OpenOceanImage {
+    left:15px;
+    top:150px;
+}
+
+.EndOfYear2Image {
+    left:15px;
+    top:350px;
+}
+
+.GGJ22Image{
+  left:15px;
+  top:550px;
+}
+
 }
 
 @media screen and (min-device-width: 1600px) and (max-width: 1850px) {

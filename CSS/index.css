@@ -1,19 +1,16 @@
 html{
+  height: 100vh;
+  overflow-y: auto;
+}
+body
+  {
     position: relative;
+    min-width:100%;
+    height: auto;
+    min-height: 100% !important;
     background-color: #252525;
-    min-width: 100%;
-    min-height: 100%;
-    height:2000px;
+    margin:0px;
   }
-
-  .pageContent{
-    position: absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
-  }
-
   
 p{
     color: #1C1C1C;
@@ -36,6 +33,7 @@ a{
   background-color:#1a1a1a;
   position: absolute;
   left: 0;
+  top:100%;
   bottom: 0px;
   height: 150px;
   width: 100%;
@@ -53,10 +51,6 @@ a{
 }
 
 @media screen and (max-width: 400px) {
-  html{
-    overflow-x: hidden;
-  }
-
   .footer .row{
     font-size:1.2em;
     }

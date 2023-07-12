@@ -1,11 +1,3 @@
-
-.projectsBG{
-    position: relative;
-    width:100%;
-    height:55%;
-
-}
-
 .projectsBG h1{
     position: absolute;
     color: #F6FFF8;
@@ -22,20 +14,19 @@
     height:400px;
 }
 
-
-.OpenOceanImage {
+.OpenOcean{
     position: absolute;
     left:75px;
     top:150px;
 }
 
-.EndOfYear2Image {
+.EndOfYear2 {
     position: absolute;
     right:75px;
     top:150px;
 }
 
-.GGJ22Image{
+.GGJ22{
     top:600px;
     position: absolute;
     left:75px;
@@ -49,32 +40,32 @@
     clip-path: polygon(0% 0%,25% 0%,35% 85%, 50% 100%, 0% 100%);
 }
 
-.OpenOceanImage{
+.OpenOcean{
     transition: 0.5s ease;
 }
 
-.OpenOceanImage:hover .text {
+.OpenOcean:hover .text {
     opacity: 1;
   }
 
-.OpenOceanImage:hover .square{
+.OpenOcean:hover .square{
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.OpenOceanImage:hover img{
+.OpenOcean:hover img{
     transform: scale(1.05);
     transition: 0.5s;
     outline-style: auto;
 }
 
-.OpenOceanImage #OpenOceanSquare{
+.OpenOcean #OpenOceanSquare{
     position: absolute;
     top:0px;
     left:0px;
 }
 
-.EndOfYear2Image{
+.EndOfYear2{
     transition: 0.5s ease;
 }
 
@@ -100,27 +91,27 @@
     
 }
 
-.GGJ22Image{
+.GGJ22{
     transition: 0.5s ease;
 }
 
-.GGJ22Image:hover .square{
+.GGJ22:hover .square{
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.GGJ22Image:hover img{
+.GGJ22:hover img{
     transform: scale(1.05);
     transition: 0.5s;
     outline-style: auto;
 }
 
-.GGJ22Image #GGJ22Square{
+.GGJ22 #GGJ22Square{
     position: absolute;
     top:0;
     left:0;
 }
 
-.GGJ22Image:hover .text {
+.GGJ22:hover .text {
     opacity: 1;
   }
