@@ -1,110 +1,77 @@
-@media screen and (min-device-width: 360px) and (max-width: 400px) {
+@media screen and (min-device-width: 340px) and (max-width: 560px) {
 
-  .profileImage{
+.information{
+    height:800px;
+  }
+.profileImage{
     left:0%;
-    top:100px;
+    top:75px;
     height:350px;
     width:100%;
   }
-  .infoSquare{
-    top:375px;
-    left:0;
-    height:350px;
-  }
-
-  .infoSquare h1{
-    padding-left: 30px;
-    font-size: 40px;
-    letter-spacing: 1px;
-   }
-   
-   .infoSquare p{
-       font-size: 25px;
-       left:35px;
-
-   }
-
-   .projectsBG img{
-    width:300px;
-    height:150px;
-}
-  .square{
-    width:300px;
-    height:150px;
-  }
-  .projectsBG{
-    height:800px;
-
-}
-  .OpenOceanImage {
-    left:50px;
-    top:150px;
-}
-
-.EndOfYear2Image {
-    left:50px;
-    top:350px;
-}
-
-.GGJ22Image{
-  left:50px;
-  top:550px;
-}
-}
-
-@media screen and (min-device-width: 350px) and (max-width: 360px) {
-
-  .profileImage{
-    left:0%;
-    top:100px;
+.infoSquare{
+    top:400px;
     height:350px;
     width:100%;
-  }
-  .infoSquare{
-    top:350px;
     left:0;
-    height:350px;
   }
-
-  .infoSquare h1{
-    padding-left: 30px;
-    font-size: 40px;
-    letter-spacing: 1px;
-   }
+.profileImage img{
+    top:-100px;
+  }
+.infoSquare h1{
+  font-size: 40px;
+  letter-spacing: 1px;
+}
    
-   .infoSquare p{
-       font-size: 25px;
-       left:35px;
-
-   }
-
-   .projectsBG img{
-    width:300px;
-    height:150px;
+.infoSquare p{
+  font-size: 25px;
+  left:35px;
 }
-  .square{
-    width:300px;
-    height:150px;
+
+.projectsBG img{
+  width:300px;
+  height:150px;
+}
+.square{
+  width:300px;
+  height:150px;
+}
+.projectsBG{
+  height:1000px;
+}
+
+}
+@media screen and (min-device-width: 360px) and (max-width: 380px) {
+  
+  .OpenOcean{
+    left:25px;
   }
-  .projectsBG{
-    height:800px;
-
-}
-  .OpenOceanImage {
-    left:15px;
-    top:150px;
-}
-
-.EndOfYear2Image {
-    left:15px;
+  
+  .EndOfYear2 {
+    left:25px;
     top:350px;
+  }
+  
+  .GGJ22{
+    left:25px;
+    top:550px;
+  }
 }
-
-.GGJ22Image{
-  left:15px;
-  top:550px;
-}
-
+@media screen and (min-device-width: 380px) and (max-width: 420px) {
+  
+  .OpenOcean{
+    left:50px;
+  }
+  
+  .EndOfYear2 {
+    left:50px;
+    top:350px;
+  }
+  
+  .GGJ22{
+    left:50px;
+    top:550px;
+  }
 }
 
 @media screen and (min-device-width: 1600px) and (max-width: 1850px) {

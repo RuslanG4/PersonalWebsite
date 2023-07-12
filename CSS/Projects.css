@@ -18,18 +18,21 @@
     position: absolute;
     left:75px;
     top:150px;
+    transition: 0.5s ease;
 }
 
 .EndOfYear2 {
     position: absolute;
     right:75px;
     top:150px;
+    transition: 0.5s ease;
 }
 
 .GGJ22{
     top:600px;
     position: absolute;
     left:75px;
+    transition: 0.5s ease;
 }
 .square{
     border-radius: 20px;
@@ -38,10 +41,6 @@
     transition: 0.5s ease;
     background: rgb(19, 18, 18);
     clip-path: polygon(0% 0%,25% 0%,35% 85%, 50% 100%, 0% 100%);
-}
-
-.OpenOcean{
-    transition: 0.5s ease;
 }
 
 .OpenOcean:hover .text {
@@ -65,10 +64,6 @@
     left:0px;
 }
 
-.EndOfYear2{
-    transition: 0.5s ease;
-}
-
 .EndOfYear2:hover .square{
     transform: scale(1.05);
     transition: 0.5s;
@@ -88,11 +83,6 @@
     position: absolute;
     top:0;
     left:0;
-    
-}
-
-.GGJ22{
-    transition: 0.5s ease;
 }
 
 .GGJ22:hover .square{

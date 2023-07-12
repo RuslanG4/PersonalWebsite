@@ -1,22 +1,9 @@
-.information{
-  position: relative;
-    width:100%;
-    height:600px;
-  }
-
-  .projectsBG{
-    position: relative;
-    background-color: #252525;
-    height:1100px;
-  }
-
-  .codeImage{
-    position: absolute;
-    width:100%;
-    height:100%;
-    filter: brightness(25%);
-
-  }
+.codeImage{
+  position: absolute;
+  width:100%;
+  height:100%;
+  filter: brightness(25%);
+}
 
 .profileImage{
     position: absolute;
