@@ -17,7 +17,7 @@
         <body>
             <div class="pageContent">
                     <div class="information">   
-                        <img src="IMG/code.webp" class="codeImage">  
+                        <img rel="preload" src="IMG/code.webp" class="codeImage">  
                         <div class="profileImage">
                             <img src="IMG/me.webp"></img>   
                         </div>
@@ -31,13 +31,26 @@
                     </div>
 
                     <div id="navbar">
-                        <a> Dropdown</a>
-                        <a href="#news">Projects</a>
-                        <a href="#contact">Contact</a>
-                      </div>
+                        <div class="dropdown">
+                            <a href="#projectsBG"class="navbarText">Projects</a>
+                            <div class="dropdown-content">
+                            <a class="dropDownText" href="#">OpenOcean</a>
+                            <a class="dropDownText" href="#">GameJam</a>
+                            <a class="dropDownText" href="#">Year 2</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="#"class="navbarText">Contact</a>
+                        </div>
+                        <div class="dropdown">
+                            <a href="#"class="navbarText">LinkedIn</a>
+                        </div>
+                    </div>
 
                     <div class="projectsBG">
-                        <h1>Projects</h1>
+                        <h1>
+                            Projects
+                        </h1>
                  
                             <div class="OpenOcean">
                                 <div class="OpenOceanImage">
@@ -55,7 +68,7 @@
                                     <span class="square" id="EndOfYear2Square"></span>
                                     <div>
                                         <p class="text">2nd year duo Project</p>
-                                   </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -65,7 +78,7 @@
                                     <span class="square" id="GGJ22Square"></span>
                                     <div>
                                         <p class="text">Global Games Jam 2023</p>
-                                   </div>
+                                    </div>
                                 </div>
                             </div>
                      

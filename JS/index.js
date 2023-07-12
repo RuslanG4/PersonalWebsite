@@ -16,8 +16,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "transparent";
   }
 }
-  function dropDown() {
-    document.getElementById("myDropdown").classList.toggle("show");
+  function showDropDown() {
+    document.getElementById("dropdownContent").style.display = "block";
   }
 
 
