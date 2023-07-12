@@ -23,14 +23,13 @@
 }
 
 .dropDownText{
-  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  margin:5px 0px 10px 5px;
-  font:13px "FF MARK W05",Arial,sans-serif;
+  font:15px "FF MARK W05",Arial,sans-serif;
   letter-spacing: 1px;
+  margin-top: 5px;
 }
 
 @media screen and (min-device-width: 340px) and (max-width: 560px) {
