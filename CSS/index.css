@@ -1,6 +1,7 @@
 html{
   height: 100vh;
-  overflow-y: auto;
+  height: auto;
+  min-height: 100% !important;
 }
 body
   {
