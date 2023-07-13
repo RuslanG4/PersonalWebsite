@@ -38,3 +38,8 @@ body{
     z-index: 1;
     background-color: #252525;
 }
+a{
+    text-decoration: none;
+    color: #EAF4F4;
+    height:30px;
+  }
