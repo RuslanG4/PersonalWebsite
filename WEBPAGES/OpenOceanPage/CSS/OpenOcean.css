@@ -32,7 +32,7 @@ a{
   }
   .container{
     position: relative;
-    top:100px;
+    top:150px;
     height:300px;
     width:50%;
     left:25%;
@@ -42,7 +42,7 @@ a{
 
   .secondPopUp{
     position: relative;
-    top:150px;
+    top:225px;
     left:55%;
     height:300px;
     width:30%;
@@ -61,5 +61,6 @@ a{
   }
 
 .bigText{
-
+  font: 120px "FF MARK W05",Arial,sans-serif;
+  padding:0px 15px 10px;
 }
