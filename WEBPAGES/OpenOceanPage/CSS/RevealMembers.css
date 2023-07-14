@@ -1,0 +1,25 @@
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    z-index:3;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .revealR{
+    position: relative;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1s all ease;
+    z-index:3;
+  }
+  
+  .revealR.active{
+    transform: translateX(0);
+    opacity: 1;
+  }

@@ -9,6 +9,10 @@
   height:70px;
 }
 
+.navBarLayout{
+  position: relative;
+  display: inline-block;
+}
 
 .navbarText{
   float: left;
