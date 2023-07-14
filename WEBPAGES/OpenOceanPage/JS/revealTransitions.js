@@ -1,6 +1,6 @@
 const checkpoint = 600;
 const checkpoint2 = 650;
-const checkpoint3 = 800;
+const checkpoint3 = 650;
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -14,10 +14,6 @@ function reveal() {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
         var elementVisible = 150;
-
-
-
-        console.log(currentScroll);
       
         if (elementTop < windowHeight - elementVisible) {
           reveals[i].classList.add("active");
@@ -65,6 +61,7 @@ function reveal() {
 function revealL(){
    var reveals = document.querySelectorAll(".revealL");
    const currentScroll = window.scrollY;
+
    if(checkpoint3 >=currentScroll)
    {
      for (var i = 0; i < reveals.length; i++) {

@@ -36,31 +36,58 @@ a{
     height:300px;
     width:50%;
     left:25%;
-    background-color: #EAF4F4;
     z-index:3;
+    display: inline-block;
   }
 
   .secondPopUp{
     position: relative;
-    top:225px;
-    left:55%;
+    top:250px;
+    left:45%;
     height:300px;
-    width:30%;
-    background-color: #2dc0c0;
+    width:45%;
     z-index:3;
   }
 
   .thirdPopUp{
     position: relative;
-    top:200px;
+    top:50px;
     left:15%;
-    height:300px;
+    height:150px;
     width:30%;
-    background-color: #2dc076;
     z-index:3;
   }
 
 .bigText{
   font: 120px "FF MARK W05",Arial,sans-serif;
   padding:0px 15px 10px;
+  color:aliceblue;
+}
+#overviewText{
+  display: flex; 
+  justify-content: center
+  
+}
+#overviewInfo{
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  color:aliceblue;
+}
+
+#motionText{
+  display: flex; 
+  justify-content: center;
+  font-size: 80px;
+}
+#motionInfo{
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  color:aliceblue;
+}
+
+.leapImg{
+  position: relative;
+  width:100%;
 }
