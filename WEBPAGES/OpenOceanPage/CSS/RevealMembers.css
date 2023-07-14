@@ -23,3 +23,16 @@
     transform: translateX(0);
     opacity: 1;
   }
+
+  .revealL{
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 1s all ease;
+    z-index:3;
+  }
+  
+  .revealL.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
