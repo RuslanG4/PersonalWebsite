@@ -25,6 +25,10 @@
   height:30px;
 }
 
+.navbarText:hover{
+  color: crimson;
+}
+
 .dropDownText{
   display: block;
   color: #f2f2f2;
@@ -33,6 +37,9 @@
   font:15px "FF MARK W05",Arial,sans-serif;
   letter-spacing: 1px;
   margin-top: 5px;
+}
+.dropDownText:hover{
+  color:crimson;
 }
 
 @media screen and (min-device-width: 340px) and (max-width: 560px) {
