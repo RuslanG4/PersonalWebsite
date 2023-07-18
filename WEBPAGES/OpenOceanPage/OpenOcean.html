@@ -8,6 +8,7 @@
     <title>Open Ocean</title>
     <link rel="stylesheet" type="text/css" href="CSS/OpenOcean.css" />
     <link rel="stylesheet" type="text/css" href="CSS/RevealMembers.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Gallery.css" />
     <link rel="stylesheet" type="text/css" href="../../CSS/navBar.css" />
     <link rel="stylesheet" type="text/css" href="../../CSS/dropDown.css" />
     <link rel="stylesheet" type="text/css" href="../../CSS/footer.css" />
@@ -36,8 +37,9 @@
                 <div class="secondPopUp revealR">
                         <span class="bigText" id="motionText">Motion Tracking</span>
                         <p id="motionInfo">
-                            Developed with the Leap Motion controller to simulate real life swimming. Control the player with your
-                            hands. Full motion tracking movement.
+                            Developed with the Leap Motion controller to simulate real life swimming. Using a c++ library for 
+                            the controller, the game reads the players movement in order to play the game. With a fully
+                            automatic gameplay, the only action the player needs to do is a swiming motion.
                         </p>
                 </div>
 
@@ -45,14 +47,31 @@
                     <img class="leapImg" src="IMG/leapController.webp">
                 </div>
 
-        </div>
+                <div class="fourthPopUp reveal">
+                    <span class="bigText" id="devText">Development</span>
+                    <p id="devInfo">
+                        Development of Open Ocean happened over a 2 month span. Working alone and
+                        using open source art, Open Ocean managed to win a Games Mechanics award for GamesFleadh 23.
+                        Developing for Open Ocean was my first experience of making a game for something outside of my college, 
+                        as the game was played by passers by and officially graded by judges from Companies such as EA Sports.
+                        During the process I learned to take on critisism, adapt my ideas based on input, and deliver weekly updates
+                        in order to make a consistent schedule.
 
+                    </p>
+                </div>
+
+                <div class="trailer">
+                    <iframe controls id="myVideo"
+                        src="https://www.youtube.com/embed/rsdHgZSTk8c">
+                    </iframe>
+                </div>
+        </div>
 
         <div id="navbar">
             <div class="navBarLayout">
                 <a href="../../index.html" class="navbarText">Home</a>
             </div>
-            <div class="navBarLayout">
+            <div class="dropdown">
                 <a href="#projectsBG"class="navbarText">Projects</a>
                 <div class="dropdown-content">
                     <a class="dropDownText" href="WEBPAGES/OpenOceanPage/OpenOcean.html">OpenOcean</a>
