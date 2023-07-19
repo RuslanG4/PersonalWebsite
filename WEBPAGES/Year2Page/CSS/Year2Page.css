@@ -85,11 +85,12 @@ h1{
     width:500px;
 }
 
-.info-block p{
+.info-block .text{
     font-family: "Roboto";
     text-align:left;
     font-size: 24px;
     color: aliceblue;
+    transition: 0.5s;
 }
 
 .info-block h5{
