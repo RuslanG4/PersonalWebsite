@@ -1,0 +1,108 @@
+h1{
+    font-family: "Roboto";
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.header{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height:600px;
+    width:100%;
+}
+
+.header h1{
+    position: relative;
+    margin:0px;
+    top:200px;
+    text-align: center;
+}
+
+.bg-row-info{
+    position: relative;
+    background-color: aliceblue;
+    height:600px;
+    width:100%;
+    
+}
+
+.bg-row-header h2{
+    font-family: "Roboto";
+    position: relative;
+    margin:0px;
+    top:75px;
+    font-size: 52px;
+    line-height: 52px;
+    text-align: center
+}
+
+.row-section{
+    position: relative;
+    display: flex;
+    top:150px;
+    justify-content: center;
+    left:5%;
+    width:90%;
+    height:450px;
+    background-color: aquamarine;
+}
+
+.info-block{
+    margin:0px 25px 0px 25px;
+    height:400px;
+    width:500px;
+    background-color: blueviolet;
+}
+
+.info-block p{
+    font-family: "Roboto";
+    text-align:left;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.info-block h5{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.bg-row-gallery{
+    position: relative;
+    background-color: rgb(255, 247, 240);
+    height:1200px;
+    width:100%;
+}
+
+.bg-row-gallery .gallery{
+    position: absolute;
+    display: flex;
+    top:150px;
+    left:100px;
+    width:900px;
+    height:750px;
+    background-color: aqua;
+}
+
+.bg-row-overview{
+    position: relative;
+    background-color: rgb(61, 114, 161);
+    height:600px;
+    width:100%;
+}
+
+.bg-row-overview h3{
+    position: absolute;
+    margin:0px;
+    top:100px;
+    left:25%;
+    font-family: "Roboto";
+    font-size: 50px;
+    width:50%;
+    color: aliceblue;
+}
+
