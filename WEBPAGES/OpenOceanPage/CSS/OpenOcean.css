@@ -20,7 +20,7 @@
 }
 #information{
     position: relative;
-    height:2200px;
+    height:2300px;
     width: 100%;
     z-index: 1;
     background-color: #252525;
@@ -33,7 +33,7 @@ a{
   .container{
     position: relative;
     top:150px;
-    height:300px;
+    height:400px;
     width:50%;
     left:25%;
     z-index:3;
@@ -69,10 +69,13 @@ a{
     display: inline-block;
   }
 
+  .trailer{
+    position: relative;
+    top:250px;
+  }
 
   iframe{
     left:25%;
-    top:250px;
     position: relative;
     width:950px;
     height:550px;
@@ -85,13 +88,6 @@ a{
     justify-content: center
   }
 
-  #devInfo{
-    display: flex; 
-    justify-content: center;
-    text-align: center;
-    color:aliceblue;
-  }
-
 .bigText{
   font: 120px "FF MARK W05",Arial,sans-serif;
   padding:0px 15px 10px;
@@ -102,7 +98,7 @@ a{
   justify-content: center
   
 }
-#overviewInfo{
+.infoText{
   display: flex; 
   justify-content: center;
   text-align: center;
@@ -113,12 +109,6 @@ a{
   display: flex; 
   justify-content: center;
   font-size: 80px;
-}
-#motionInfo{
-  display: flex; 
-  justify-content: center;
-  text-align: center;
-  color:aliceblue;
 }
 
 .leapImg{
@@ -133,9 +123,11 @@ height:80%;
 .fourthPopUp{
   top:200px;
 }
+.trailer{
+  top:300px;
+}
 
 iframe{
-  top:350px;
   left:20%;
   width:800px;
   height:500px;
