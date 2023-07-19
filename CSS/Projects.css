@@ -1,7 +1,7 @@
 .projectsBG{
     position: relative;
     background-color: #252525;
-    height:1200px;
+    height:800px;
 } 
 
 .projectsBG h1{
@@ -34,12 +34,6 @@
     transition: 0.5s ease;
 }
 
-.GGJ22{
-    top:600px;
-    position: absolute;
-    left:75px;
-    transition: 0.5s ease;
-}
 .square{
     border-radius: 20px;
     width:825px;
@@ -91,23 +85,3 @@
     left:0;
 }
 
-.GGJ22:hover .square{
-    transform: scale(1.05);
-    transition: 0.5s;
-}
-
-.GGJ22:hover img{
-    transform: scale(1.05);
-    transition: 0.5s;
-    outline-style: auto;
-}
-
-.GGJ22 #GGJ22Square{
-    position: absolute;
-    top:0;
-    left:0;
-}
-
-.GGJ22:hover .text {
-    opacity: 1;
-  }

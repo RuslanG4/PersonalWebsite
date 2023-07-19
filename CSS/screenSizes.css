@@ -51,11 +51,6 @@
     left:25px;
     top:350px;
   }
-  
-  .GGJ22{
-    left:25px;
-    top:550px;
-  }
 }
 @media screen and (min-device-width: 380px) and (max-width: 420px) {
   
@@ -66,11 +61,6 @@
   .EndOfYear2 {
     left:50px;
     top:350px;
-  }
-  
-  .GGJ22{
-    left:50px;
-    top:550px;
   }
 }
 
