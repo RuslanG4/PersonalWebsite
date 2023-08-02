@@ -113,23 +113,60 @@ h1{
     align-content: center;
     justify-content: center;
     top:150px;
-    left:100px;
+    left:250px;
     width:900px;
     height:750px;
     background-color: #130d07;
 }
 
-.bg-row-gallery .gallery-image{
-    position: relative;
-    margin: 25px;
-    width:400px;
-    height:250px;
-    overflow: hidden;
+.viewBox{
+    position:absolute;
+    left:70%;
+    height:450px;
+    width:350px;
+    top:300px;
+    overflow:hidden;
+  }
+  
+  .flexBox{
+    position:absolute;
+    display:flex;
+    flex-flow: column;
+  }
+  
+  .content{
+    position:relative;
+    height:120px;
+    width: 200px;
+    margin-bottom:30px;
     cursor: pointer;
-}
+  }
+  
+  .inside{
+    position:absolute;
+    height:50px;
+    top:40px;
+    width:0px;
+    background-color:aliceblue;
+    z-index:1;
+  }
+  
+  .active{
 
-.gallery-image img:hover{
-    transform: scale(1.1);
-}
+  }
+
+  #bigImage{
+    transition:1s;
+  }
+
+  .active img{
+    outline-style:solid;
+    outline-color: aliceblue;
+    cursor: pointer;
+  }
+
+
+
+
 
 
