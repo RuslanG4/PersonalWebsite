@@ -112,19 +112,18 @@ h1{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    top:150px;
-    left:250px;
+    top:50px;
     width:900px;
     height:750px;
-    background-color: #130d07;
+    left:750px;
 }
 
 .viewBox{
     position:absolute;
-    left:70%;
+    left:250px;
     height:450px;
     width:350px;
-    top:300px;
+    top:170px;
     overflow: hidden;
   }
   
@@ -159,12 +158,25 @@ h1{
 
   #bigImage{
     transition:1s;
+    outline:solid;
+    outline-color: aliceblue;
+    margin-bottom:30px;
   }
 
   .active img{
     outline-style:solid;
     outline-color: aliceblue;
     cursor: pointer;
+  }
+
+
+  @media screen and (min-device-width: 1280px) and (max-width: 1400px) {
+    .bg-row-gallery #gallery{
+      left:400px;
+    }
+    .viewBox{
+        left:75px;
+    }
   }
 
 
