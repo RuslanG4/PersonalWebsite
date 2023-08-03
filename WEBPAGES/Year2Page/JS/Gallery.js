@@ -1,6 +1,4 @@
 var move = 0;
-const botPos = 200;
-var index = 4;
 
 function selectActive() {
   $(".content").click(function() {
@@ -66,16 +64,16 @@ function bigBoxColor(div) {
       $("#bigImage").attr("src","../../IMG/code.webp");
       break;
     case 1:
-        $("#bigImage").attr("src","../../IMG/jp.webp");
+      $("#bigImage").attr("src","../../IMG/jp.webp");
       break;
     case 2:
-        $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#bigImage").attr("src","../../IMG/code.webp");
       break;
     case 3:
-        $("#bigImage").attr("src","../../IMG/jp.webp");
+      $("#bigImage").attr("src","../../IMG/jp.webp");
       break;
     case 4:
-        $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#bigImage").attr("src","../../IMG/code.webp");
       break;
   }
 
@@ -84,3 +82,27 @@ function bigBoxColor(div) {
 $(document).ready(function() {
   selectActive();
 });
+
+function checkContentOverFlow(){
+  var divs = document.querySelectorAll(".content");
+
+  for(let i=0;i<divs.length;i++)
+  {
+  	if($(divs[i]).position().top<-180)
+    { 
+      $(divs[i]).css({"top" : '480px'});
+    }
+    if($(divs[i]).position().top>480)
+    { 
+      $(divs[i]).css({"top" : '-120px'});
+
+    }
+  }
+
+}
+
+function update(){
+	checkContentOverFlow();
+	window.requestAnimationFrame(update);
+}
+	window.requestAnimationFrame(update);
