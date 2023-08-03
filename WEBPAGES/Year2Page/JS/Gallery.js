@@ -101,8 +101,8 @@ function checkContentOverFlow(){
 
 }
 
-function update(){
+function checks(){
 	checkContentOverFlow();
-	window.requestAnimationFrame(update);
+	window.requestAnimationFrame(checks);
 }
-	window.requestAnimationFrame(update);
+	window.requestAnimationFrame(checks);

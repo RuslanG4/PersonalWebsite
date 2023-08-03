@@ -31,7 +31,6 @@ const checkpoint = 600;
 function update(){
     reveal();
     window.requestAnimationFrame(update);
-
   }
   
   window.requestAnimationFrame(update);
