@@ -62,18 +62,23 @@ function bigBoxColor(div) {
   switch (index) {
     case 0:
       $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#imgText").text("Image 1 extend");
       break;
     case 1:
       $("#bigImage").attr("src","../../IMG/jp.webp");
+      $("#imgText").text("Image 2 extend");
       break;
     case 2:
       $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#imgText").text("Image 3 extend");
       break;
     case 3:
       $("#bigImage").attr("src","../../IMG/jp.webp");
+      $("#imgText").text("Image 4 extend");
       break;
     case 4:
       $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#imgText").text("Image 5 extend");
       break;
   }
 
