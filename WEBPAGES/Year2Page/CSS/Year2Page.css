@@ -161,6 +161,12 @@ h1{
     outline:solid;
     outline-color: aliceblue;
     margin-bottom:30px;
+    width:750px;
+    height:500px;
+  }
+
+  #gallery-heading{
+    font: 30px Roboto aliceblue;
   }
 
   .active img{
@@ -168,6 +174,30 @@ h1{
     outline-color: aliceblue;
     cursor: pointer;
   }
+
+  .scroll-image{
+    position:relative;
+    width: 142px;
+    height: 108px;
+    z-index:2;
+    left:30px;
+    top:10px; 
+  }
+#scroll-image-one{
+    top:-150px;
+}
+#scroll-image-two{
+    top:0px;
+}
+#scroll-image-three{
+    top:150px;
+}
+#scroll-image-four{
+    top:300px;
+}
+#scroll-image-five{
+    top:450px; 
+}
 
 
   @media screen and (min-device-width: 1280px) and (max-width: 1400px) {
@@ -177,6 +207,114 @@ h1{
     .viewBox{
         left:75px;
     }
+  }
+
+  @media screen and (min-device-width: 300px) and (max-width: 500px) {
+    .bg-row-overview{
+        height:400px;
+    }
+    
+    .bg-row-overview h3{
+        left:10%;
+        font-size: 30px;
+        width:75%;
+        top:50px;
+    }
+
+    .bg-row-header h2{
+        top:50px;
+        font-size: 46px;
+    }
+
+    .bg-row-info{
+        height:1300px;      
+    }
+
+    .row-section{
+        flex-direction: column;
+        left:0%;
+        width:90%;
+         top:400px;
+    }
+    
+    .info-block{
+        width:100%;
+        height:100%;
+    }
+    .bg-row-gallery #gallery{
+        top:50px;
+        width:100%;
+        height:250px;
+        left:0px;
+    }
+    #bigImage{
+        width:375px;
+        height:250px;
+    }
+
+    #gallery-heading{
+        font: 12px Roboto aliceblue;
+    }
+    
+.viewBox{
+    position:relative;
+    left:0px;
+    height:150px;
+    width:100%;
+    top:400px;
+    overflow: hidden;
+  }
+  .flexBox{
+    height:150px;
+    width:100%;
+    left:0px;
+    top:20px;
+    display:flex;
+    flex-flow: row;
+  }
+  .scroll-image{
+    left:0px;
+    top:0px; 
+    
+  }
+
+  #scroll-image-one{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left:-275px;
+    top:0px;
+
+}
+#scroll-image-two{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+    left:-75px;
+
+}
+#scroll-image-three{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left:125px;
+    top:0px;
+}
+#scroll-image-four{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+    left:325px;
+}
+#scroll-image-five{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+    left:525px;
+}
   }
 
 

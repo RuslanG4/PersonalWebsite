@@ -1,11 +1,29 @@
 var move = 0;
 
+if($(window).width() < 500)
+{
+  moveActiveHorizontal($("#scroll-image-three"));
+}
+
 function selectActive() {
   $(".content").click(function() {
+    var elem=$(window).width();
+    if(elem < 500)
+    {
+      assignValueHorizontal(this);
+      moveActiveHorizontal(this);
+    }
+    else{
     assignValue(this);
     moveActive(this);
+    }
     bigBoxColor(this);
-  });
+});
+}
+
+function assignValueHorizontal(div){
+  $(".content").removeClass("active");
+  $(div).addClass("active");
 }
 
 function assignValue(div) {
@@ -42,6 +60,33 @@ function moveActive(content) {
   }
 }
 
+function moveActiveHorizontal(content){
+  var middle = ($(window).width() - 200) / 2;
+  var contentPos = $(content).offset().left;
+  if (contentPos < middle) {
+    move = middle - contentPos;
+    $(content).animate({
+      left: '+=' + move + 'px',
+    });
+    moveAllHori(content, move);
+  } else {
+    move = contentPos - middle;
+    $(content).animate({
+      left: '-=' + move + 'px',
+    });
+    moveAllHori(content, -move);
+  }
+}
+
+
+function moveAllHori(div, move) {
+  $(".content").not(div).animate({
+    left: '+=' + move + 'px',
+  })
+
+}
+
+
 function moveAll(div, move) {
   $(".content").not(div).animate({
     top: '+=' + move + 'px',
@@ -54,6 +99,8 @@ function moveAll(div, move) {
     left:30
   },100);
 }
+
+$("#imgText").text("Image 3 extend");
 
 function bigBoxColor(div) {
 
@@ -93,21 +140,37 @@ function checkContentOverFlow(){
 
   for(let i=0;i<divs.length;i++)
   {
-  	if($(divs[i]).position().top<-180)
+    if($(window).width() < 500)
+    {
+      var middle = -400 - (($(window).width() - 200) / 2);
+
+      if($(divs[i]).position().left < middle)
+      { 
+        $(divs[i]).css({"left" : -middle + 'px'});
+      }
+      if($(divs[i]).position().left > -middle)
+      { 
+        $(divs[i]).css({"left" : middle + 'px'})
+      }
+   
+    }
+    else{
+      if($(divs[i]).position().top<-180)
     { 
       $(divs[i]).css({"top" : '480px'});
     }
     if($(divs[i]).position().top>480)
     { 
       $(divs[i]).css({"top" : '-120px'});
-
+    }
     }
   }
 
 }
 
+
 function checks(){
-	checkContentOverFlow();
+  checkContentOverFlow();
 	window.requestAnimationFrame(checks);
 }
 	window.requestAnimationFrame(checks);
