@@ -1,10 +1,5 @@
 var move = 0;
 
-if($(window).width() < 500)
-{
-  moveActiveHorizontal($("#scroll-image-three"));
-}
-
 function selectActive() {
   $(".content").click(function() {
     var elem=$(window).width();
@@ -62,7 +57,7 @@ function moveActive(content) {
 
 function moveActiveHorizontal(content){
   var middle = ($(window).width() - 200) / 2;
-  var contentPos = $(content).offset().left;
+  var contentPos = $(content).position().left;
   if (contentPos < middle) {
     move = middle - contentPos;
     $(content).animate({
@@ -101,6 +96,7 @@ function moveAll(div, move) {
 }
 
 $("#imgText").text("Image 3 extend");
+$("#explain-text").text("this is to explain image 3 extending text");
 
 function bigBoxColor(div) {
 
@@ -109,31 +105,56 @@ function bigBoxColor(div) {
   switch (index) {
     case 0:
       $("#bigImage").attr("src","../../IMG/code.webp");
-      $("#imgText").text("Image 1 extend");
+      $("#imgText").text("Image 5 extend");
+      $("#explain-text").text("this is to explain image 5 extending text");
       break;
     case 1:
       $("#bigImage").attr("src","../../IMG/jp.webp");
-      $("#imgText").text("Image 2 extend");
+      $("#imgText").text("Image 4 extend");
+      $("#explain-text").text("this is to explain image 4 extending text");
       break;
     case 2:
       $("#bigImage").attr("src","../../IMG/code.webp");
       $("#imgText").text("Image 3 extend");
+      $("#explain-text").text("this is to explain image 3 extending text");
       break;
     case 3:
       $("#bigImage").attr("src","../../IMG/jp.webp");
-      $("#imgText").text("Image 4 extend");
+      $("#imgText").text("Image 2 extend");
+      $("#explain-text").text("this is to explain image 2 extending text");
       break;
     case 4:
       $("#bigImage").attr("src","../../IMG/code.webp");
-      $("#imgText").text("Image 5 extend");
+      $("#imgText").text("Image 1 extend");
+      $("#explain-text").text("this is to explain image 1 extending text");
       break;
   }
 
 }
 
 $(document).ready(function() {
+  if($(window).width()<500)
+  {
+    placeImagesHorizontal();
+  }
   selectActive();
 });
+
+
+function placeImagesHorizontal(){
+  var divs = document.querySelectorAll(".content");
+  var middle = (($(window).width() - 200) / 2);
+  console.log(middle);
+  var place=middle + 400;
+
+  for(let i=0;i<divs.length;i++)
+  {
+    $(divs[i]).css({"left" : place + 'px'});
+    console.log($(divs[i]).position().left);
+    place-=200;
+   
+  }
+}
 
 function checkContentOverFlow(){
   var divs = document.querySelectorAll(".content");
@@ -142,16 +163,15 @@ function checkContentOverFlow(){
   {
     if($(window).width() < 500)
     {
-      var middle = -400 - (($(window).width() - 200) / 2);
-
-      if($(divs[i]).position().left < middle)
+      if($(divs[i]).position().left<-293)
       { 
-        $(divs[i]).css({"left" : -middle + 'px'});
+        $(divs[i]).css({"left" : '507px'});
       }
-      if($(divs[i]).position().left > -middle)
+      if($(divs[i]).position().left>507)
       { 
-        $(divs[i]).css({"left" : middle + 'px'})
+        $(divs[i]).css({"left" : '-293px'});
       }
+  
    
     }
     else{

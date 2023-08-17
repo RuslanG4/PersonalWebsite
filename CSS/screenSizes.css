@@ -28,17 +28,23 @@
   left:35px;
 }
 
+.projectsBG{
+  height:800px;
+}
+
 .projectsBG img{
   width:300px;
-  height:150px;
+  height:200px;
 }
 .square{
   width:300px;
-  height:150px;
+  height:200px;
 }
-.projectsBG{
-  height:1000px;
+
+.text {
+  font-size:20px;
 }
+
 
 }
 @media screen and (min-device-width: 360px) and (max-width: 380px) {
@@ -49,18 +55,25 @@
   
   .EndOfYear2 {
     left:25px;
-    top:350px;
+    top:400px;
   }
 }
 @media screen and (min-device-width: 380px) and (max-width: 420px) {
   
   .OpenOcean{
     left:50px;
+    
   }
   
   .EndOfYear2 {
     left:50px;
-    top:350px;
+    top:400px;
+  }
+}
+
+@media screen and (min-device-width: 400px) and (max-width: 450px) {
+  .profileImage img{
+    top:-120px;
   }
 }
 
