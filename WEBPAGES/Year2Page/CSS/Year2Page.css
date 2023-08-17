@@ -109,13 +109,18 @@ h1{
 .bg-row-gallery #gallery{
     position: absolute;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     top:50px;
     width:900px;
     height:750px;
     left:750px;
+}
+
+.gallery-image{
+    display: flex;
+    justify-content: center;
 }
 
 .viewBox{
@@ -165,8 +170,9 @@ h1{
     height:500px;
   }
 
-  #gallery-heading{
+  .gallery-heading{
     font: 30px Roboto aliceblue;
+    text-align: center;
   }
 
   .active img{
