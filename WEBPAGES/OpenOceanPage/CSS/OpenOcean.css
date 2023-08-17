@@ -165,7 +165,7 @@ iframe{
   }
 }
 
-@media screen and (min-device-width: 360px) and (max-width: 420px) {
+@media screen and (min-device-width: 360px) and (max-width: 450px) {
   
   #information{
     height:2400px;
@@ -210,11 +210,15 @@ iframe{
   display: inline-block;
 }
 
+.trailer{
+  top:350px;
+}
+
 iframe{
-  width:95%;
+  width:100%;
   height:215px;
   left:0px;
-  top:400px;
+
 }
 
 }
