@@ -115,7 +115,7 @@ h1{
     top:50px;
     width:900px;
     height:750px;
-    left:750px;
+    left:650px;
 }
 
 .gallery-image{
@@ -128,7 +128,7 @@ h1{
     left:250px;
     height:450px;
     width:350px;
-    top:170px;
+    top:20px;
     overflow: hidden;
   }
   
