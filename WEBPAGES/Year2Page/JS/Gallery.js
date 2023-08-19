@@ -1,5 +1,5 @@
 var move = 0;
-let changeToVertical=true;
+
 
 function selectActive() {
   $(".content").click(function() {
@@ -7,8 +7,9 @@ function selectActive() {
     if(elem < 1300)
     {
       assignValueHorizontal(this);
-      if(elem<1000)
-    {  moveActiveHorizontal(this);}
+      if(elem<1000){
+      moveActiveHorizontal(this);
+      }
       bigBoxColor(this);
     }
     else{
@@ -175,7 +176,7 @@ function checkContentOverFlow(){
   var middle = (($(".gallery-container").width() - 200) / 2);
   for(let i=0;i<divs.length;i++)
   {
-    if($(window).width() < 1300)
+    if($(window).width() < 1000)
     {
       if($(divs[i]).position().left< middle - 400)
       { 
@@ -201,10 +202,11 @@ function checkContentOverFlow(){
 
 }
 
-
+let changeToVertical=true;
+let changeToHorizontal=false;
 
 function checks(){
-  if($(window).width()<1300 )
+  if($(window).width()<1300 && changeToVertical)
   {
       placeImagesHorizontal();
       changeToVertical = false;
