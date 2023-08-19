@@ -162,13 +162,14 @@ iframe{
 
 @media screen and (min-device-width: 1500px) and (max-width: 1700px) {
   iframe{
+
     left:25%;
     width:800px;
   }
 }
 
 @media screen and (min-device-width: 360px) and (max-width: 450px) {
-  
+
   #information{
     height:2200px;
   }
@@ -183,7 +184,7 @@ iframe{
 }
 .container{
   top:50px;
-  height:300px;
+  height:325px;
   width:100%;
   left:5%;
 }
@@ -194,23 +195,24 @@ iframe{
   width:100%;
 }
 .bigText{
-  font: 60px "FF MARK W05",Arial,sans-serif;
+  font: 45px "FF MARK W05",Arial,sans-serif;
 }
 
 #motionText{
   position: relative;
-  left:10%;
+  font-size: 45px;
+  left:-20px;
   display: flex; 
   justify-content: center;
 }
 .thirdPopUp{
-  top:100px;
+  top:0px;
   left:0%;
   height:150px;
   width:100%;
 }
 .fourthPopUp{
-  top:150px;
+  top:50px;
   height:400px;
   width:100%;
   left:5%;

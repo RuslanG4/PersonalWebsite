@@ -1,8 +1,14 @@
 @media screen and (min-device-width: 340px) and (max-width: 560px) {
 
 .information{
-    height:800px;
+    height:850px;
   }
+
+  #blurbAboutMe{
+    position: relative;
+    left:0px;
+  }
+
 .profileImage{
     left:0%;
     top:75px;
@@ -10,10 +16,10 @@
     width:100%;
   }
 .infoSquare{
-    top:400px;
+    top:450px;
     height:350px;
     width:100%;
-    left:0;
+    left:0px;
   }
 .profileImage img{
     top:-100px;
