@@ -1,18 +1,22 @@
 var move = 0;
+let changeToVertical=true;
 
 function selectActive() {
   $(".content").click(function() {
     var elem=$(window).width();
-    if(elem < 500)
+    if(elem < 1300)
     {
       assignValueHorizontal(this);
-      moveActiveHorizontal(this);
+      if(elem<1000)
+    {  moveActiveHorizontal(this);}
+      bigBoxColor(this);
     }
     else{
     assignValue(this);
     moveActive(this);
-    }
     bigBoxColor(this);
+    }
+ 
 });
 }
 
@@ -56,7 +60,7 @@ function moveActive(content) {
 }
 
 function moveActiveHorizontal(content){
-  var middle = ($(window).width() - 200) / 2;
+  var middle = ($(".gallery-container").width() - 200) / 2;
   var contentPos = $(content).position().left;
   if (contentPos < middle) {
     move = middle - contentPos;
@@ -78,7 +82,6 @@ function moveAllHori(div, move) {
   $(".content").not(div).animate({
     left: '+=' + move + 'px',
   })
-
 }
 
 
@@ -132,10 +135,11 @@ function bigBoxColor(div) {
 
 }
 
+
 $(document).ready(function() {
-  if($(window).width()<500)
+  if($(window).width()<1300 )
   {
-    placeImagesHorizontal();
+      placeImagesHorizontal();
   }
   selectActive();
 });
@@ -143,35 +147,44 @@ $(document).ready(function() {
 
 function placeImagesHorizontal(){
   var divs = document.querySelectorAll(".content");
-  var middle = (($(window).width() - 200) / 2);
-  console.log(middle);
+  var middle = (($(".gallery-container").width() - 200) / 2);
   var place=middle + 400;
 
   for(let i=0;i<divs.length;i++)
   {
     $(divs[i]).css({"left" : place + 'px'});
-    console.log($(divs[i]).position().left);
+    $(divs[i]).css({"top" : '0px'});
     place-=200;
-   
+  }
+}
+
+function placeImagesVertical(){
+  var divs = document.querySelectorAll(".content");
+  var place=-150;
+
+  for(let i=0;i<divs.length;i++)
+  {
+    $(divs[i]).css({"left" : '0px'});
+    $(divs[i]).css({"top" : place + 'px'});
+    place+=150;
   }
 }
 
 function checkContentOverFlow(){
   var divs = document.querySelectorAll(".content");
-
+  var middle = (($(".gallery-container").width() - 200) / 2);
   for(let i=0;i<divs.length;i++)
   {
-    if($(window).width() < 500)
+    if($(window).width() < 1300)
     {
-      if($(divs[i]).position().left<-293)
+      if($(divs[i]).position().left< middle - 400)
       { 
-        $(divs[i]).css({"left" : '507px'});
+        $(divs[i]).css({"left" : middle + 400 + 'px'});
       }
-      if($(divs[i]).position().left>507)
+      if($(divs[i]).position().left>middle + 400)
       { 
-        $(divs[i]).css({"left" : '-293px'});
+        $(divs[i]).css({"left" : middle - 400 + 'px'});
       }
-  
    
     }
     else{
@@ -189,7 +202,18 @@ function checkContentOverFlow(){
 }
 
 
+
 function checks(){
+  if($(window).width()<1300 )
+  {
+      placeImagesHorizontal();
+      changeToVertical = false;
+  }
+  if($(window).width()>1300 && !changeToVertical)
+  {
+    placeImagesVertical();
+    changeToVertical = true;
+  }
   checkContentOverFlow();
 	window.requestAnimationFrame(checks);
 }

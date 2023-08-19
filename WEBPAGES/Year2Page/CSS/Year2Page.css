@@ -106,32 +106,39 @@ h1{
     width:100%;
 }
 
-.bg-row-gallery #gallery{
+.gallery-container{
+    position: relative;
+    width:80%;
+    left:10%;
+    height:800px;
+    top:200px;
+}
+
+#gallery{
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
     top:50px;
-    width:900px;
-    height:750px;
-    left:650px;
+    width:55%;
+    height:50%;
+    left:40%;
 }
 
-.gallery-image{
-    display: flex;
-    justify-content: center;
+  
+#bigImage{
+    transition:1s;
+    outline:solid;
+    outline-color: aliceblue;
+    margin-bottom:30px;
+    width:100%;
+    height:500px;
 }
-
-.viewBox{
-    position:absolute;
-    left:250px;
+  .viewBox{
+    position:relative;
+    left:10%;
     height:450px;
     width:350px;
-    top:120px;
+    top:75px;
     overflow: hidden;
-  }
-  
+  } 
   .flexBox{
     height:600px;
     width:350px;
@@ -157,18 +164,7 @@ h1{
     z-index:1;
   }
   
-  .active{
-
-  }
-
-  #bigImage{
-    transition:1s;
-    outline:solid;
-    outline-color: aliceblue;
-    margin-bottom:30px;
-    width:750px;
-    height:500px;
-  }
+  .active{}
 
   .gallery-heading{
     font: 30px Roboto aliceblue;
@@ -211,16 +207,108 @@ h1{
 }
 
 
-  @media screen and (min-device-width: 1280px) and (max-width: 1400px) {
-    .bg-row-gallery #gallery{
-      left:400px;
+
+  @media screen and (min-device-width: 1300px) and (max-width: 1580px) {
+    .gallery-container{
+        height:700px;
+    }
+    #bigImage{
+        height:400px;
+    }
+      .viewBox{
+        left:5%;
+      } 
+  }
+  @media screen and (min-device-width: 1000px) and (max-width: 1300px) {
+    .gallery-container{
+        top:100px;
+        height: 900px;
+    }
+    #gallery{
+        left: 5%;
+        width:90%;
+        height: 500px;
+    }
+    #bigImage{
+        height:500px;
     }
     .viewBox{
-        left:75px;
+        left:0px;
+        height:150px;
+        width:100%;
+        top:750px;
+        overflow: hidden;
+      }
+      .show-box{
+        left:200px;
+        position:absolute;
+        height:150px;
+        width:600px;
+        background-color: aliceblue;
+      }
+      .flexBox{
+        position: absolute;
+        height:150px;
+        width:90%;
+        left:0px;
+        top:20px;
+        display:flex;
+        flex-flow: row;
+      }
+      .scroll-image{
+        left:0px;
+        top:0px;  
+      }
+    
+      #scroll-image-one{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0px;
+    }
+    #scroll-image-two{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0px;
+    }
+    #scroll-image-three{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0px;
+    }
+    #scroll-image-four{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0px;
+    }
+    #scroll-image-five{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0px;  
+    }
+    .info-block{
+        height:300px;
+    }
+    
+    .info-block .text{
+        font-size: 20px; 
     }
   }
 
+
   @media screen and (min-device-width: 300px) and (max-width: 500px) {
+    .gallery-container{
+        left:5%;
+        width:90%;
+    }
+    #bigImage{
+        height:250px;
+       width:100%;
+    }
     .bg-row-overview{
         height:400px;
     }
@@ -261,10 +349,7 @@ h1{
         height:250px;
         left:0px;
     }
-    #bigImage{
-        width:375px;
-        height:250px;
-    }
+
 
     #gallery-heading{
         font: 12px Roboto aliceblue;
