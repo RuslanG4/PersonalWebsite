@@ -302,12 +302,13 @@ h1{
 
   @media screen and (min-device-width: 300px) and (max-width: 500px) {
     .gallery-container{
+        top:50px;
         left:5%;
         width:90%;
     }
     #bigImage{
         height:250px;
-       width:100%;
+        width:100%;
     }
     .bg-row-overview{
         height:400px;
