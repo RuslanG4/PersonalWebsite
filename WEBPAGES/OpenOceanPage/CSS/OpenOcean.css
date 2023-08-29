@@ -225,13 +225,14 @@ iframe{
 }
 
 .trailer{
-  top:350px;
+  top:250px;
+  width:100%;
 }
 
 iframe{
-  width:100%;
+  width:95%;
   height:215px;
-  left:0px;
+  left:2.5%;
 
 }
 

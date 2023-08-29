@@ -1,8 +1,12 @@
 var move = 0;
-
+let hasClicked= false;
+let clickTimer=600;
 
 function selectActive() {
-  $(".content").click(function() {
+$('.content').on('click', function(e){
+  var $link = $(e.target);
+  e.preventDefault();
+  if(!$link.data('lockedAt') || +new Date() - $link.data('lockedAt') > 500) {
     var elem=$(window).width();
     if(elem < 1300)
     {
@@ -16,10 +20,13 @@ function selectActive() {
     assignValue(this);
     moveActive(this);
     bigBoxColor(this);
-    }
- 
+    } 
+  }
+  $link.data('lockedAt', +new Date());
 });
-}
+  }
+
+
 
 function assignValueHorizontal(div){
   $(".content").removeClass("active");
@@ -215,6 +222,14 @@ function checks(){
   {
     placeImagesVertical();
     changeToVertical = true;
+  }
+  if(hasClicked){
+    clickTimer--;
+    if(clickTimer<0)
+    {
+      clickTimer=600;
+      hasClicked=false;
+    }
   }
   checkContentOverFlow();
 	window.requestAnimationFrame(checks);

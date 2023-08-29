@@ -26,7 +26,7 @@
 }
 
 .navbarText:hover{
-  color: crimson;
+  color: rgb(155, 155, 155);
 }
 
 .dropDownText{
@@ -39,7 +39,7 @@
   margin-top: 5px;
 }
 .dropDownText:hover{
-  color:crimson;
+  color:rgb(155, 155, 155);
 }
 
 @media screen and (min-device-width: 340px) and (max-width: 560px) {

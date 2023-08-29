@@ -11,12 +11,12 @@
     z-index: 5;
     background-color: #252525;
     padding:12px 12px;
+   
   }
 
   .dropdown-content .dropDownText:hover{
     background-color: #424242;
     width: 100px;
-
   }
   
   .dropdown:hover .dropdown-content {
