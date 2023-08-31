@@ -115,27 +115,27 @@ function bigBoxColor(div) {
 
   switch (index) {
     case 0:
-      $("#bigImage").attr("src","../../IMG/code.webp");
-      $("#imgText").text("Image 5 extend");
-      $("#explain-text").text("this is to explain image 5 extending text");
+      $("#bigImage").attr("src","../../IMG/inGame.webp");
+      $("#imgText").text("In-Game POV");
+      $("#explain-text").text("This is how the player sees the game as they play it.");
       break;
     case 1:
-      $("#bigImage").attr("src","../../IMG/jp.webp");
-      $("#imgText").text("Image 4 extend");
-      $("#explain-text").text("this is to explain image 4 extending text");
+      $("#bigImage").attr("src","../../IMG/homeScreen.webp");
+      $("#imgText").text("Menu and Home screen");
+      $("#explain-text").text("This is out simple menu and home screen that shows when you start the game.");
       break;
     case 2:
-      $("#bigImage").attr("src","../../IMG/code.webp");
-      $("#imgText").text("Image 3 extend");
-      $("#explain-text").text("this is to explain image 3 extending text");
+      $("#bigImage").attr("src","../../IMG/EndScreen.webp");
+      $("#imgText").text("End Screen");
+      $("#explain-text").text("After you die in the game, end game stats will be displayed to the player");
       break;
     case 3:
-      $("#bigImage").attr("src","../../IMG/jp.webp");
-      $("#imgText").text("Image 2 extend");
-      $("#explain-text").text("this is to explain image 2 extending text");
+      $("#bigImage").attr("src","../../IMG/hitEnemy.webp");
+      $("#imgText").text("In-Game effects");
+      $("#explain-text").text("The enemies are mushroom and show blood when hit.");
       break;
     case 4:
-      $("#bigImage").attr("src","../../IMG/code.webp");
+      $("#bigImage").attr("src","../../IMG/inGame.webp");
       $("#imgText").text("Image 1 extend");
       $("#explain-text").text("this is to explain image 1 extending text");
       break;
