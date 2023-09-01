@@ -116,28 +116,32 @@ function bigBoxColor(div) {
   switch (index) {
     case 0:
       $("#bigImage").attr("src","../../IMG/inGame.webp");
+      $("#bigVideo").attr("style", " visibility: hidden;");
       $("#imgText").text("In-Game POV");
       $("#explain-text").text("This is how the player sees the game as they play it.");
       break;
     case 1:
       $("#bigImage").attr("src","../../IMG/homeScreen.webp");
+      $("#bigVideo").attr("style", " visibility: hidden;");
       $("#imgText").text("Menu and Home screen");
       $("#explain-text").text("This is out simple menu and home screen that shows when you start the game.");
       break;
     case 2:
       $("#bigImage").attr("src","../../IMG/EndScreen.webp");
+      $("#bigVideo").attr("style", " visibility: hidden;");
       $("#imgText").text("End Screen");
       $("#explain-text").text("After you die in the game, end game stats will be displayed to the player");
       break;
     case 3:
       $("#bigImage").attr("src","../../IMG/hitEnemy.webp");
+      $("#bigVideo").attr("style", " visibility: hidden;");
       $("#imgText").text("In-Game effects");
       $("#explain-text").text("The enemies are mushroom and show blood when hit.");
       break;
     case 4:
-      $("#bigImage").attr("src","../../IMG/inGame.webp");
-      $("#imgText").text("Image 1 extend");
-      $("#explain-text").text("this is to explain image 1 extending text");
+      $("#bigVideo").attr("style", " visibility: visible;");
+      $("#imgText").text("GamePlay Video");
+      $("#explain-text").text("Here is a slight demo of gameplay of our second year project.");
       break;
   }
 
